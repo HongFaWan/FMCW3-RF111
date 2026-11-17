@@ -14506,7 +14506,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECO_PWR:R0402_Yageo_Mount_V10"
+		(property "Footprint" "ECO_FACTORY:R0402_Panasonic_ERA2A_Mount_RF110"
 			(at 314.32500 82.55000 0)
 			(effects
 				(font
@@ -14515,12 +14515,14 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 314.32500 82.55000 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
+			
+				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -14535,7 +14537,7 @@
 		
 		
 	(uuid "577a2bd1-2ae3-4fb5-987e-409de06d31c4") (pin "1" (uuid "033d12a2-ecbf-4a3d-a586-ad5190ca83c5")) (pin "2" (uuid "b31b107f-4a9b-4c01-8001-e64f2bbc2ae0")) (instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-0000593d9285" (reference "R362") (unit 1))))
-		(property "MPN" "RT0402BRC0731K6L"
+		(property "MPN" "ERA-2ARB3162X"
 			(at 314.32500 82.55000 0)
 			(effects
 				(font
@@ -14544,7 +14546,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C852449"
+		(property "LCSC" "C2090771"
 			(at 314.32500 82.55000 0)
 			(effects
 				(font
@@ -14562,7 +14564,17 @@
 				(hide yes)
 			)
 		)
-		(property "TCR" "15ppm/C"
+		(property "TCR" "10ppm/C"
+			(at 314.32500 82.55000 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+
+		(property "Manufacturer" "Panasonic"
 			(at 314.32500 82.55000 0)
 			(effects
 				(font

@@ -25957,7 +25957,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2803379"
+		(property "LCSC" "C190862"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -56594,7 +56594,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "ECO_PWR:R0402_Yageo_Mount_V10"
+	(footprint "ECO_FACTORY:R0402_Panasonic_ERA2A_Mount_RF110"
 		(layer "B.Cu")
 		(uuid "3fd7d59b-8faf-4abf-90ab-4ce1fe39cab1")
 		(at 153.25 114.7 180)
@@ -56622,7 +56622,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RT0402BRC0731K6L"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -56646,7 +56646,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "RT0402BRC0731K6L"
+		(property "MPN" "ERA-2ARB3162X"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -56659,7 +56659,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Panasonic"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -56672,7 +56672,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C852449"
+		(property "LCSC" "C2090771"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -56698,7 +56698,7 @@
 				(justify mirror)
 			)
 		)
-		(property "TCR" "15ppm/C"
+		(property "TCR" "10ppm/C"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -58586,7 +58586,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "ECO_PWR:R0402_Yageo_Mount_V10"
+	(footprint "ECO_FACTORY:R0402_Panasonic_ERA2A_Mount_RF110"
 		(layer "B.Cu")
 		(uuid "648c9905-be6f-42b5-b590-3cb7def9120e")
 		(at 152 113.2 180)
@@ -58614,7 +58614,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RT0402BRC0731K6L"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -58638,7 +58638,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "RT0402BRC0731K6L"
+		(property "MPN" "ERA-2ARB3162X"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -58651,7 +58651,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Panasonic"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -58664,7 +58664,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C852449"
+		(property "LCSC" "C2090771"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -58690,7 +58690,7 @@
 				(justify mirror)
 			)
 		)
-		(property "TCR" "15ppm/C"
+		(property "TCR" "10ppm/C"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -62158,7 +62158,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "ECO_PWR:R0402_Yageo_Mount_V10"
+	(footprint "ECO_FACTORY:R0402_Panasonic_ERA2A_Mount_RF110"
 		(layer "B.Cu")
 		(uuid "8da45461-c4a2-4d14-987b-b46efeb98c0e")
 		(at 159.8 71.3)
@@ -62186,7 +62186,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
@@ -62212,7 +62212,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "RT0402BRC0731K6L"
+		(property "MPN" "ERA-2ARB3162X"
 			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
@@ -62225,7 +62225,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C852449"
+		(property "LCSC" "C2090771"
 			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
@@ -62251,7 +62251,7 @@
 				(justify mirror)
 			)
 		)
-		(property "TCR" "15ppm/C"
+		(property "TCR" "10ppm/C"
 			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
@@ -62337,7 +62337,21 @@
 		)
 		(embedded_fonts no)
 		
-	)
+	
+		(property "Manufacturer" "Panasonic"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3ad64cc7-4414-41c9-8db3-e2fe63fd4bb1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+)
 	(footprint "ECO_PWR:R0402_Yageo_Mount_V10"
 		(layer "B.Cu")
 		(uuid "8e1f9371-fbd9-4164-a5af-4a23e0f370eb")
