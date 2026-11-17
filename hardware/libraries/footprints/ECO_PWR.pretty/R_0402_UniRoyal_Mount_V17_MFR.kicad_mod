@@ -1,0 +1,86 @@
+(footprint "R_0402_UniRoyal_Mount_V17_MFR"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "UNI-ROYAL0402 manufacturer datasheet p5 lands A0.50 B0.45 C0.50 D1.40mm; pads0.45x0.50mm centers0.95mm")
+	(property "Reference" "REF**"
+		(at 0 -1.2 0)
+		(layer "F.SilkS")
+		(uuid "b8923821-935f-434b-a3d3-a1d96385cf73")
+		(effects
+			(font
+				(size 0.7 0.7)
+			)
+		)
+	)
+	(property "Value" "R0402_UniRoyal_Mount_V17_MFR"
+		(at 0 1.2 0)
+		(layer "F.Fab")
+		(uuid "b98a9cd5-4200-47f0-b7d5-feadbad1c442")
+		(effects
+			(font
+				(size 0.7 0.7)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd3015d1-e14a-4dc8-8d56-eb1c36909115")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7ebf1c1-80e2-40f6-b290-74b483bc0d11")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1 -0.55)
+		(end 1 0.55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "adf33034-99fc-45b8-b656-59c97eb43a01")
+	)
+	(fp_rect
+		(start -0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1a65e1a7-8963-4860-a66c-a1fcf7d4935e")
+	)
+	(pad "1" smd rect
+		(at -0.475 0)
+		(size 0.45 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "eff799c8-8d29-4537-aaff-092f72587a8f")
+	)
+	(pad "2" smd rect
+		(at 0.475 0)
+		(size 0.45 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1ef8a29b-bb22-4b79-a524-007af6d6327a")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,22 @@
+# Local state and generated/debug files
+*.kicad_prl
+*.lck
+*.bak
+*~
+~*
+_autosave*
+*-backups/
+__pycache__/
+*.pyc
+.env
+.env.*
+node_modules/
+*.log
+*.raw
+*.wdb
+*.jou
+*.dcp
+*.xsa
+*.bit
+*.elf
+.Xil/

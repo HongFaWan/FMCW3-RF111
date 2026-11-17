@@ -1,0 +1,24 @@
+来源与修改说明
+
+硬件基于Cenk KESKİN的ckflight/FMCW3-Kicad：
+https://github.com/ckflight/FMCW3-Kicad
+本地固定参考提交：5fba6a33842a1cbaa5bbb830c68bed0dde02df7d
+上游readme.md的Author为Cenk KESKİN，License声明GNU GPL v3.0。
+本仓库保留GNU GPL v3.0全文于LICENSE。第三方库内已有许可/归属声明仍适用，不将厂商软件或数据手册纳入本仓库。
+GPL全文来自SPDX官方license-list-data的GPL-3.0-only.txt：
+https://github.com/spdx/license-list-data/blob/main/text/GPL-3.0-only.txt
+
+相关原始雷达与天线参考：Heikki Forstén / Ttl
+https://github.com/Ttl/fmcw3
+https://hforsten.com/homemade-polarimetric-synthetic-aperture-radar-drone.html
+以上仅为设计背景链接，未将其完整仓库、文章或图片复制进本归档。
+
+本项目当前工程修订RF109来自既有本地优化工作。改动涉及供电/控制保护与监控、HMC430频段适配、采集接口、元件供料定义、阻焊/钢网和连接器装配修正；详见当前电路及BOM，不沿用上游旧版HMC431/5.8GHz指标。
+本次2026-11-17归档只整理可移植路径、必要文件和采购信息：
+- 11张原理图及项目配置保持源文件。
+- 本地符号/封装库按实际引用保留，库表改为项目相对路径。
+- PCB移除164个、本地封装移除30个可选3D模型表达式；其余相应正文与RF109源文件严格一致。
+- 制造Gerber/Excellon/CPL和孔工艺表保留当前110导出；均为REVIEW_ONLY。
+- BOM保持104组原型号；候选换料、供料提案只写入采购说明。
+
+归档不包含上游Git历史，也不附厂商工具、账号或仿真/调试产物。当前候选未获得工厂全部工艺接受，尚未证明整板功能完好。

@@ -1,0 +1,115 @@
+(footprint "SMD_0402" (version 20241229) (generator "embedded_recovery")
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-0000596ba8a6")
+		
+		(property "Reference" "R109"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(uuid "5ecf572e-10b0-4649-90a6-c4c55176daf6")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.075)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 0 0.675 90)
+			(layer "F.Fab")
+			(uuid "2e1af18b-08c7-48dc-98e8-b5e966a77336")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.075)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4b6b751-a922-46fb-abd5-bdbe79e19c13")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cac79bae-2e6b-4e9a-99bd-09ce60413268")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_* Resistor_*")
+		
+		
+		
+		(attr smd)
+		(fp_line
+			(start -0.725 0.375)
+			(end -0.725 -0.375)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b74c9aa4-fa14-4b56-b6bc-4ff0fc7efd3a")
+		)
+		(fp_line
+			(start 0.725 0.375)
+			(end -0.725 0.375)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0f7e7df7-8038-4f78-b14a-f4f0a62e78be")
+		)
+		(fp_line
+			(start -0.725 -0.375)
+			(end 0.725 -0.375)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "90b0e774-93f3-4a1f-8c9f-8ce942b3cf2b")
+		)
+		(fp_line
+			(start 0.725 -0.375)
+			(end 0.725 0.375)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b251470c-bb68-4eab-be68-eebd3b19592c")
+		)
+		(pad "1" smd rect
+			(at -0.45 0 270)
+			(size 0.4 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			
+			
+			(uuid "edc8dd0e-7a00-4b0b-b076-10e29a5e07e9")
+		)
+		(pad "2" smd rect
+			(at 0.45 0 270)
+			(size 0.4 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			
+			
+			(uuid "4677eb05-b716-4213-97f6-fee147040d5a")
+		)
+		(embedded_fonts no)
+		
+	)
+

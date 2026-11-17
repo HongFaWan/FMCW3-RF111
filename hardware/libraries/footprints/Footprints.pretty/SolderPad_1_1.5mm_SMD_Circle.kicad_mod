@@ -1,0 +1,77 @@
+(footprint "SolderPad_1_1.5mm_SMD_Circle" (version 20241229) (generator "embedded_recovery")
+		(layer "F.Cu")
+		(uuid "ea9ee90f-acdc-4699-970f-46c9e8cf61d3")
+		
+		(property "Reference" "U36"
+			(at 0 -0.15 0)
+			(layer "F.SilkS")
+			(uuid "818accf6-e04f-48c8-acb1-9daa515fcd5d")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.075)
+				)
+			)
+		)
+		(property "Value" "SolderPad_1_Circle"
+			(at 0 1.225 0)
+			(layer "F.Fab")
+			(uuid "c198ae8f-069b-4455-9d5d-9d19b1ae4a0a")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.125)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5736b0ac-c83f-4ae9-85f5-32efd038c56c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "159b6090-1f83-4c3f-a5d1-9a2f1ee8490f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		
+		
+		
+		(attr through_hole)
+		(fp_circle
+			(center 0 0)
+			(end 0.8 0.05)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "b268cb1a-0b69-4e4c-9ceb-0b988b5f48ea")
+		)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			
+			
+			
+			(uuid "81088118-9e73-4580-a18c-170209ba13d1")
+		)
+		(embedded_fonts no)
+	)
+

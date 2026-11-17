@@ -1,0 +1,117 @@
+(footprint "SolderPad_2_Bridge" (version 20241229) (generator "embedded_recovery")
+		(layer "F.Cu")
+		(uuid "24554489-6a96-4ac1-aa9b-5eff77561f2e")
+		
+		(property "Reference" "JP7"
+			(at 0.01 0.61 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "480328dd-3339-4802-8753-d9ac13116da4")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.05)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 0 0.9 90)
+			(layer "F.Fab")
+			(uuid "1ade2a98-6c33-44f7-8762-57af48d53602")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.05)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "daa408ac-7834-41b0-820a-5c44fbd3a450")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28f71e45-4da8-448f-8053-5392f9ff688a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "SolderJumper*Bridged*")
+		
+		
+		
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_line
+			(start -0.525 0.35)
+			(end 0.525 0.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fd65c8b4-d512-44a1-bdaa-a55562b8b706")
+		)
+		(fp_line
+			(start 0.525 0.35)
+			(end 0.525 -0.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "26994e3d-9ef4-4968-befd-779bb4df570d")
+		)
+		(fp_line
+			(start -0.525 -0.35)
+			(end -0.525 0.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "297c5de1-92e0-4dad-ab68-54a44013c2b3")
+		)
+		(fp_line
+			(start 0.525 -0.35)
+			(end -0.525 -0.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "116367d4-1c31-49cd-9eee-75e948180378")
+		)
+		(pad "1" smd rect
+			(at -0.275 0 90)
+			(size 0.4 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			
+			
+			
+			(uuid "4d31d1a2-ca1c-488e-817d-4c85852324b0")
+		)
+		(pad "2" smd rect
+			(at 0.275 0)
+			(size 0.6 0.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			
+			
+			
+			(uuid "96bd5c1e-a0a1-408b-a6ab-9c40915467dc")
+		)
+		(embedded_fonts no)
+	)
+

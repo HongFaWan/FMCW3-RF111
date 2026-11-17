@@ -1,0 +1,100 @@
+(footprint "RF_via" (version 20241229) (generator "embedded_recovery")
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-000059718063")
+		
+		(property "Reference" "F1"
+			(at 0.1 1 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d1412513-aa14-4141-81bf-6f3d0d4398f4")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.125)
+				)
+			)
+		)
+		(property "Value" "Via"
+			(at 0 -1.5 180)
+			(layer "F.Fab")
+			(uuid "3e4c2579-dcd0-44a0-afc8-ad5ecde39447")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7162404-b8ba-4d7b-8f32-a1b9adb7f3cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "344fc7db-6fb1-486e-a027-1ca2ee4cea16")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		
+		
+		
+		(attr through_hole)
+		(fp_line
+			(start -0.7 0)
+			(end 0.7 0)
+			(stroke
+				(width 0.95)
+				(type solid)
+			)
+			(layer "F.Mask")
+			(uuid "0ea2c146-9bf7-47aa-99eb-de72462d7f5f")
+		)
+		(pad "1" thru_hole circle
+			(at 0 0 180)
+			(size 0.55 0.55)
+			(drill 0.26)
+			(layers "*.Cu" "F.Mask")
+			(remove_unused_layers no)
+			
+			
+			(uuid "36157823-001c-433c-a7ae-bf9e27a17336")
+		)
+		(pad "2" thru_hole circle
+			(at -0.75 0 180)
+			(size 0.55 0.55)
+			(drill 0.26)
+			(layers "*.Cu" "F.Mask")
+			(remove_unused_layers no)
+			
+			
+			(zone_connect 2)
+			(uuid "d9cb515f-85e0-4c3f-b979-7ea19c54d82f")
+		)
+		(pad "2" thru_hole circle
+			(at 0.75 0 180)
+			(size 0.55 0.55)
+			(drill 0.26)
+			(layers "*.Cu" "F.Mask")
+			(remove_unused_layers no)
+			
+			
+			(zone_connect 2)
+			(uuid "89d62d94-6a77-4eab-a1db-7bf6b69e339e")
+		)
+		(embedded_fonts no)
+	)
+
