@@ -1751,12 +1751,12 @@
 		(embedded_fonts no)
 		
 	)
-	(footprint "fmcw3:SRR6040A"
+	(footprint "ECO_FACTORY:L_TDK_SPM6530T_RF111_PROPOSAL_ONLY"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000596ba547")
-		(at 110.160219 72.54383)
+		(at 110.16021900 72.54383000 270)
 		(property "Reference" "L5"
-			(at 0.045 0.125 0)
+			(at 0.12500000 -0.04500000 0)
 			(layer "F.SilkS")
 			(uuid "214b2e94-ad17-423b-821d-535cc517994e")
 			(effects
@@ -1766,8 +1766,8 @@
 				)
 			)
 		)
-		(property "Value" "33u (SRR6040A-330M)"
-			(at 0 -4.9 0)
+		(property "Value" "1u (SPM6530T-1R0M120)"
+			(at -4.90000000 -0.00000000 0)
 			(layer "F.Fab")
 			(uuid "c3af38ee-5a9c-42c2-8e3d-f0fbd6a2c329")
 			(effects
@@ -1777,8 +1777,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0.25 0 0)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_spm6530_en.pdf"
+			(at 0.00000000 -0.25000000 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0886aefc-000a-4a63-861a-72a6b9f6b1d2")
@@ -1790,7 +1790,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0.25 0 0)
+			(at 0.00000000 -0.25000000 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6d89a9d3-7316-4fdc-8021-ca692c4b7dc0")
@@ -1806,108 +1806,70 @@
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -3.35 -3.4)
-			(end 3.35 -3.4)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c83db062-def2-41ee-9046-bdecc0f6dea3")
-		)
-		(fp_line
-			(start -3.35 3.3)
-			(end -3.35 -3.4)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ce4cac6b-f9bb-484c-b3ed-bfe0be138d8d")
-		)
-		(fp_line
-			(start 3.35 -3.4)
-			(end 3.35 3.3)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "45f11bb7-8b03-4879-82f8-34408d452816")
-		)
-		(fp_line
-			(start 3.35 3.3)
-			(end -3.35 3.3)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "98315037-76d9-4306-877a-81e9781f5faf")
-		)
-		(pad "1" smd rect
-			(at -3.325 -1.7)
-			(size 0.65 1)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(U17-SW)")
-			(pinfunction "1")
-			(pintype "input")
-			(uuid "e1c4352c-389b-40f8-bcce-baccc8cc9a96")
-		)
-		(pad "1" smd rect
-			(at 0 -2.9)
-			(size 7.3 1.4)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(U17-SW)")
-			(pinfunction "1")
-			(pintype "input")
-			(uuid "8f983956-c11b-45ab-8707-fb9f0c013e0a")
-		)
-		(pad "1" smd rect
-			(at 3.325 -1.7)
-			(size 0.65 1)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(U17-SW)")
-			(pinfunction "1")
-			(pintype "input")
-			(uuid "b2c2f2b0-02b1-43b8-9378-c87e87cb0694")
-		)
-		(pad "2" smd rect
-			(at -3.325 1.7)
-			(size 0.65 1)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/1V0")
-			(pinfunction "2")
-			(pintype "input")
-			(uuid "513ec7a9-9a83-4f01-9825-a9f62d093133")
-		)
-		(pad "2" smd rect
-			(at 0 2.9)
-			(size 7.3 1.4)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/1V0")
-			(pinfunction "2")
-			(pintype "input")
-			(uuid "40e4f255-d9ec-4211-bb78-db9fed2ed63f")
-		)
-		(pad "2" smd rect
-			(at 3.325 1.7)
-			(size 0.65 1)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/1V0")
-			(pinfunction "2")
-			(pintype "input")
-			(uuid "f763115a-54b2-4bc0-b7be-561ccf4529d9")
-		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(embedded_fonts no)
+	
+		(property "MPN" "SPM6530T-1R0M120"
+			(at 0.00000000 -0.25000000 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b01d6a2-c637-4e28-9b66-96a2c3385db2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+	
+		(property "LCSC" "C87572"
+			(at 0.00000000 -0.25000000 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e92e0ac1-fd4c-40ba-bcb6-ebf8dfeab873")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+	
+		(property "Manufacturer" "TDK"
+			(at 0.00000000 -0.25000000 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21602de3-e7a0-4f67-8070-d7213f011dd8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+	
+		(fp_line (start -3.4 -3.5) (end 3.4 -3.5) (stroke (width 0.12) (type solid)) (layer "F.SilkS") (uuid "6e160c4c-d202-45dc-ac33-0b16f12bc26e"))
+		(fp_line (start -3.4 3.5) (end 3.4 3.5) (stroke (width 0.12) (type solid)) (layer "F.SilkS") (uuid "5b36f6f7-23cc-4fcc-a3d8-6b28efb7223c"))
+		(fp_rect (start -3.55 -3.25) (end 3.55 3.25) (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (uuid "d775cdd7-8dc6-47cc-a1de-0508b7e3c026"))
+		(fp_rect (start -3.95 -3.65) (end 3.95 3.65) (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (uuid "34164258-95a0-4987-b5d3-c0e0f0b3e5b2"))
+		(pad "1" smd rect (at -2.775 0 270) (size 1.85 3.4) (layers "F.Cu" "F.Paste" "F.Mask") (zone_connect 2) (net "Net-(U17-SW)") (pinfunction "1") (pintype "passive") (uuid "ed3cd149-8d14-45d3-8c78-9d11042ffdbf"))
+		(pad "2" smd rect (at 2.775 0 270) (size 1.85 3.4) (layers "F.Cu" "F.Paste" "F.Mask") (zone_connect 2) (net "/1V0") (pinfunction "2") (pintype "passive") (uuid "a3c3ffb4-4f41-4b95-aace-d0f6c7c0c48b"))
 	)
-	(footprint "fmcw3:SRR6040A"
+	(footprint "ECO_FACTORY:L_TDK_SPM6530T_RF111_PROPOSAL_ONLY"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000596ba56f")
-		(at 126 72.61383)
+		(at 126.00000000 72.76250000 270)
 		(property "Reference" "L6"
-			(at 0.2126 -0.0624 0)
+			(at -0.06240000 -0.21260000 0)
 			(layer "F.SilkS")
 			(uuid "d6b67f18-8ff9-4b5e-80c1-da8d9d569f32")
 			(effects
@@ -1917,8 +1879,8 @@
 				)
 			)
 		)
-		(property "Value" "33u (SRR6040A-330M)"
-			(at 0 -4.9 0)
+		(property "Value" "3.3u (SPM6530T-3R3M)"
+			(at -4.90000000 -0.00000000 0)
 			(layer "F.Fab")
 			(uuid "5051fbea-ff5a-476a-9134-5006d31b3e0d")
 			(effects
@@ -1928,8 +1890,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0.25 0 0)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_spm6530_en.pdf"
+			(at 0.00000000 -0.25000000 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6a09fe24-1338-4fb6-a78c-e84f37e6e4cf")
@@ -1941,7 +1903,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0.25 0 0)
+			(at 0.00000000 -0.25000000 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1addd01a-faae-414a-ba28-57477f716177")
@@ -1957,108 +1919,70 @@
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -3.35 -3.4)
-			(end 3.35 -3.4)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d8def06e-3bcf-4c9c-98e4-29ea0d9b7f21")
-		)
-		(fp_line
-			(start -3.35 3.3)
-			(end -3.35 -3.4)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "230c31e6-6ece-4104-9aed-c82d80263aa4")
-		)
-		(fp_line
-			(start 3.35 -3.4)
-			(end 3.35 3.3)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8ed00333-eb27-477b-9eac-0323915de292")
-		)
-		(fp_line
-			(start 3.35 3.3)
-			(end -3.35 3.3)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "430bc5bf-6e6f-4789-92c5-88de84d703f1")
-		)
-		(pad "1" smd rect
-			(at -3.325 -1.7)
-			(size 0.65 1)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(U18-SW)")
-			(pinfunction "1")
-			(pintype "input")
-			(uuid "89e39645-727e-4877-a14f-8beeea0d747c")
-		)
-		(pad "1" smd rect
-			(at 0 -2.9)
-			(size 7.3 1.4)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(U18-SW)")
-			(pinfunction "1")
-			(pintype "input")
-			(uuid "45e07a5d-f15d-4930-be1c-59945908ce33")
-		)
-		(pad "1" smd rect
-			(at 3.325 -1.7)
-			(size 0.65 1)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(U18-SW)")
-			(pinfunction "1")
-			(pintype "input")
-			(uuid "28102859-ad2e-4022-a9c1-3ea9236fbdcc")
-		)
-		(pad "2" smd rect
-			(at -3.325 1.7)
-			(size 0.65 1)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/3V8")
-			(pinfunction "2")
-			(pintype "input")
-			(uuid "eb9037c5-01c0-43ea-8284-0ca56b9c3f8d")
-		)
-		(pad "2" smd rect
-			(at 0 2.9)
-			(size 7.3 1.4)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/3V8")
-			(pinfunction "2")
-			(pintype "input")
-			(uuid "5a0dbd36-bb57-48cf-aa33-98e84b533ac5")
-		)
-		(pad "2" smd rect
-			(at 3.325 1.7)
-			(size 0.65 1)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/3V8")
-			(pinfunction "2")
-			(pintype "input")
-			(uuid "b3b92ed6-0287-4e32-892c-4ce3a9c77f58")
-		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(embedded_fonts no)
+	
+		(property "MPN" "SPM6530T-3R3M"
+			(at 0.00000000 -0.25000000 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f718467-7331-4ac4-8e25-85bab36d37ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+	
+		(property "LCSC" "C76856"
+			(at 0.00000000 -0.25000000 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1034542-324d-43f8-b57d-58a8668d35c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+	
+		(property "Manufacturer" "TDK"
+			(at 0.00000000 -0.25000000 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "555a0368-4346-402c-abb7-169a090dd1aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+	
+		(fp_line (start -3.4 -3.5) (end 3.4 -3.5) (stroke (width 0.12) (type solid)) (layer "F.SilkS") (uuid "01f56fc4-e7c0-4b1f-96ac-ec09a00ffafe"))
+		(fp_line (start -3.4 3.5) (end 3.4 3.5) (stroke (width 0.12) (type solid)) (layer "F.SilkS") (uuid "eef32023-2d72-4db9-a573-26b6b3d79033"))
+		(fp_rect (start -3.55 -3.25) (end 3.55 3.25) (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (uuid "9fa394c9-c5e9-46f3-b7fa-fdd1f96e5b51"))
+		(fp_rect (start -3.95 -3.65) (end 3.95 3.65) (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (uuid "21c2c1bf-f94d-459a-9267-aaee982168ff"))
+		(pad "1" smd rect (at -2.775 0 270) (size 1.85 3.4) (layers "F.Cu" "F.Paste" "F.Mask") (zone_connect 2) (net "Net-(U18-SW)") (pinfunction "1") (pintype "passive") (uuid "6120ee9e-54bd-416e-a692-b6dcc9a54f7b"))
+		(pad "2" smd rect (at 2.775 0 270) (size 1.85 3.4) (layers "F.Cu" "F.Paste" "F.Mask") (zone_connect 2) (net "/3V8") (pinfunction "2") (pintype "passive") (uuid "993110a8-1d85-419a-b901-c44f88af198d"))
 	)
-	(footprint "fmcw3:SRR6040A"
+	(footprint "ECO_FACTORY:L_TDK_SPM6530T_RF111_PROPOSAL_ONLY"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000596ba597")
-		(at 141.167814 72.61383)
+		(at 141.16781400 72.61383000 270)
 		(property "Reference" "L7"
-			(at 0.247 0.0002 0)
+			(at 0.00020000 -0.24700000 0)
 			(layer "F.SilkS")
 			(uuid "ba73715b-4701-4867-8a63-b49ea020ff46")
 			(effects
@@ -2068,8 +1992,8 @@
 				)
 			)
 		)
-		(property "Value" "33u (SRR6040A-330M)"
-			(at 0 -4.9 0)
+		(property "Value" "4.7u (SPM6530T-4R7M)"
+			(at -4.90000000 -0.00000000 0)
 			(layer "F.Fab")
 			(uuid "52e28529-26a1-42b5-a573-77e52cc75bf5")
 			(effects
@@ -2079,8 +2003,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0.25 0 0)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_spm6530_en.pdf"
+			(at 0.00000000 -0.25000000 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "42987cd7-d083-4265-a004-df80d34e1464")
@@ -2092,7 +2016,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0.25 0 0)
+			(at 0.00000000 -0.25000000 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1380afff-ec70-4a63-9812-352c2c6660d9")
@@ -2108,102 +2032,63 @@
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -3.35 -3.4)
-			(end 3.35 -3.4)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0a14725f-8d1d-4768-a98d-b6d72ea40498")
-		)
-		(fp_line
-			(start -3.35 3.3)
-			(end -3.35 -3.4)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a0f1c56c-fb28-4fb7-b6d9-b0bfa6befe77")
-		)
-		(fp_line
-			(start 3.35 -3.4)
-			(end 3.35 3.3)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5e3ebfc9-93e1-40f2-88cc-aa96a8a7b1df")
-		)
-		(fp_line
-			(start 3.35 3.3)
-			(end -3.35 3.3)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8360faea-3891-42cc-a47c-e8390f7e3487")
-		)
-		(pad "1" smd rect
-			(at -3.325 -1.7)
-			(size 0.65 1)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(U19-SW)")
-			(pinfunction "1")
-			(pintype "input")
-			(uuid "4f9785c7-ed25-4d8d-a751-9770777ef8a0")
-		)
-		(pad "1" smd rect
-			(at 0 -2.9)
-			(size 7.3 1.4)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(U19-SW)")
-			(pinfunction "1")
-			(pintype "input")
-			(uuid "2bf71a31-9d17-4f99-9451-17ad8bc50f7a")
-		)
-		(pad "1" smd rect
-			(at 3.325 -1.7)
-			(size 0.65 1)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(U19-SW)")
-			(pinfunction "1")
-			(pintype "input")
-			(uuid "7ee71120-e9aa-4f73-9535-ab3763ec38db")
-		)
-		(pad "2" smd rect
-			(at -3.325 1.7)
-			(size 0.65 1)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/power/5V6")
-			(pinfunction "2")
-			(pintype "input")
-			(uuid "302578c4-3a8e-40b8-9bc4-30dda2d095ef")
-		)
-		(pad "2" smd rect
-			(at 0 2.9)
-			(size 7.3 1.4)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/power/5V6")
-			(pinfunction "2")
-			(pintype "input")
-			(uuid "56197030-5481-4e29-8f6c-03ee45bd80fc")
-		)
-		(pad "2" smd rect
-			(at 3.325 1.7)
-			(size 0.65 1)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/power/5V6")
-			(pinfunction "2")
-			(pintype "input")
-			(zone_connect 2)
-			(uuid "6bdc5a0b-3c4d-44ca-9b9e-55db6384dba5")
-		)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		(embedded_fonts no)
+	
+		(property "MPN" "SPM6530T-4R7M"
+			(at 0.00000000 -0.25000000 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "397da87e-fd48-404e-b50f-c338f61451d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+	
+		(property "LCSC" "C76857"
+			(at 0.00000000 -0.25000000 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9b5ae21-cb62-489c-9505-bead35dfe42c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+	
+		(property "Manufacturer" "TDK"
+			(at 0.00000000 -0.25000000 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28862f1e-4abf-48a5-aa9a-6b58234e7129")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+	
+		(fp_line (start -3.4 -3.5) (end 3.4 -3.5) (stroke (width 0.12) (type solid)) (layer "F.SilkS") (uuid "99701c93-ccc5-4bdf-b4d4-2f1f7e40b419"))
+		(fp_line (start -3.4 3.5) (end 3.4 3.5) (stroke (width 0.12) (type solid)) (layer "F.SilkS") (uuid "15c6a05f-6292-4d7e-b90c-14ec217162cb"))
+		(fp_rect (start -3.55 -3.25) (end 3.55 3.25) (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (uuid "cc02e618-34f3-4c8b-ba84-a37106a32c2d"))
+		(fp_rect (start -3.95 -3.65) (end 3.95 3.65) (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (uuid "c2a3187b-2fcc-4f19-945a-701fba3ace3f"))
+		(pad "1" smd rect (at -2.775 0 270) (size 1.85 3.4) (layers "F.Cu" "F.Paste" "F.Mask") (zone_connect 2) (net "Net-(U19-SW)") (pinfunction "1") (pintype "passive") (uuid "f7e9689f-cbad-4174-9bf3-79bf2a5995b2"))
+		(pad "2" smd rect (at 2.775 0 270) (size 1.85 3.4) (layers "F.Cu" "F.Paste" "F.Mask") (zone_connect 2) (net "/power/5V6") (pinfunction "2") (pintype "passive") (uuid "c2e50075-040c-4b7c-a155-38179c29add4"))
 	)
 	(footprint "fmcw3:SOT-23-6"
 		(layer "F.Cu")

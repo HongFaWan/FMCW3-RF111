@@ -13,8 +13,8 @@ https://github.com/Ttl/fmcw3
 https://hforsten.com/homemade-polarimetric-synthetic-aperture-radar-drone.html
 以上仅为设计背景链接，未将其完整仓库、文章或图片复制进本归档。
 
-本项目当前工程修订RF110来自既有本地优化工作。改动涉及供电/控制保护与监控、HMC430频段适配、采集接口、元件供料定义、阻焊/钢网和连接器装配修正；详见当前电路及BOM，不沿用上游旧版HMC431/5.8GHz指标。
-本次2026-11-17归档只整理可移植路径、必要文件和采购信息：
+本项目RF110及后续RF111工程修订来自既有本地优化工作。改动涉及供电/控制保护与监控、HMC430频段适配、采集接口、元件供料定义、阻焊/钢网和连接器装配修正；详见当前电路及BOM，不沿用上游旧版HMC431/5.8GHz指标。
+此前2026-11-17的RF110整理和换料包括：
 - RF110仅三只31.6k电阻改Panasonic ERA-2ARB3162X、同焊盘封装别名；U40仅供料编号改C190862。
 - 本地符号/封装库按实际引用保留，库表改为项目相对路径。
 - PCB移除164个、本地封装移除30个可选3D模型表达式；其余相应正文与RF109源文件严格一致。
@@ -22,3 +22,7 @@ https://hforsten.com/homemade-polarimetric-synthetic-aperture-radar-drone.html
 - BOM保持104组，已采用ERA与U40供料码；104组商家来源于2026-11-17刷新，最终采购量/批次尚待确认。
 
 归档不包含上游Git历史，也不附厂商工具、账号或仿真/调试产物。当前候选未获得工厂全部工艺接受，尚未证明整板功能完好。
+
+2026-11-18采用RF111：三路降压电感改为TDK SPM6530T-1R0M120/3R3M/4R7M，按系列建议自建两矩形焊盘、修正实例角度与L6微位移，同时更新106组BOM/CPL和制造数据。系列公开尺寸/焊盘资料来源：
+https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_spm6530_en.pdf
+不附数据手册、原厂模型或报告。本段之后的RF111为当前版本，前述RF110仅为修改沿革。

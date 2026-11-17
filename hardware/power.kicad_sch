@@ -7069,7 +7069,7 @@
 				)
 			)
 		)
-		(property "Value" "33u (SRR6040A-330M)"
+		(property "Value" "4.7u (SPM6530T-4R7M)"
 			(at 106.68 59.69 0)
 			(effects
 				(font
@@ -7077,7 +7077,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fmcw3:SRR6040A"
+		(property "Footprint" "ECO_FACTORY:L_TDK_SPM6530T_RF111_PROPOSAL_ONLY"
 			(at 106.68 58.42 0)
 			(effects
 				(font
@@ -7086,13 +7086,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_spm6530_en.pdf"
 			(at 106.68 58.42 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-			)
+			 (hide yes))
 		)
 		(property "Description" ""
 			(at 106.68 58.42 0)
@@ -7115,6 +7115,33 @@
 					(unit 1)
 				)
 			)
+		)
+	
+		(property "MPN" "SPM6530T-4R7M"
+			(at 106.68 58.42 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			 (hide yes))
+		)
+	
+		(property "LCSC" "C76857"
+			(at 106.68 58.42 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			 (hide yes))
+		)
+	
+		(property "Manufacturer" "TDK"
+			(at 106.68 58.42 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			 (hide yes))
 		)
 	)
 	(symbol
@@ -11186,7 +11213,7 @@
 				)
 			)
 		)
-		(property "Value" "33u (SRR6040A-330M)"
+		(property "Value" "1u (SPM6530T-1R0M120)"
 			(at 106.68 132.08 0)
 			(effects
 				(font
@@ -11194,7 +11221,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fmcw3:SRR6040A"
+		(property "Footprint" "ECO_FACTORY:L_TDK_SPM6530T_RF111_PROPOSAL_ONLY"
 			(at 106.68 130.81 0)
 			(effects
 				(font
@@ -11203,13 +11230,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_spm6530_en.pdf"
 			(at 106.68 130.81 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-			)
+			 (hide yes))
 		)
 		(property "Description" ""
 			(at 106.68 130.81 0)
@@ -11232,6 +11259,33 @@
 					(unit 1)
 				)
 			)
+		)
+	
+		(property "MPN" "SPM6530T-1R0M120"
+			(at 106.68 130.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			 (hide yes))
+		)
+	
+		(property "LCSC" "C87572"
+			(at 106.68 130.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			 (hide yes))
+		)
+	
+		(property "Manufacturer" "TDK"
+			(at 106.68 130.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			 (hide yes))
 		)
 	)
 	(symbol
@@ -11825,7 +11879,7 @@
 				)
 			)
 		)
-		(property "Value" "33u (SRR6040A-330M)"
+		(property "Value" "3.3u (SPM6530T-3R3M)"
 			(at 105.41 95.25 0)
 			(effects
 				(font
@@ -11833,7 +11887,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fmcw3:SRR6040A"
+		(property "Footprint" "ECO_FACTORY:L_TDK_SPM6530T_RF111_PROPOSAL_ONLY"
 			(at 105.41 93.98 0)
 			(effects
 				(font
@@ -11842,13 +11896,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_spm6530_en.pdf"
 			(at 105.41 93.98 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-			)
+			 (hide yes))
 		)
 		(property "Description" ""
 			(at 105.41 93.98 0)
@@ -11871,6 +11925,33 @@
 					(unit 1)
 				)
 			)
+		)
+	
+		(property "MPN" "SPM6530T-3R3M"
+			(at 105.41 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			 (hide yes))
+		)
+	
+		(property "LCSC" "C76856"
+			(at 105.41 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			 (hide yes))
+		)
+	
+		(property "Manufacturer" "TDK"
+			(at 105.41 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			 (hide yes))
 		)
 	)
 	(symbol
