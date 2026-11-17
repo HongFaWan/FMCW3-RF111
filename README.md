@@ -11,6 +11,9 @@
 - [装配与制造说明](manufacturing/制造与装配说明.txt)：当前Gerber、Excellon、CPL、指定填孔/开孔文件的使用条件。
 - [来源与修改说明](SOURCE_CREDITS.txt)，[文件校验值](SHA256SUMS)。
 
+- [2026-11-17射频稳定性、链路预算与匹配专项核查](docs/RF109_RF_review_20261117.md)。
+- [后续修改的GitHub同步与版本约定](AGENTS.md)。
+
 ## 打开与编辑
 
 克隆后直接用KiCad 10.0.8打开hardware/fmcw3.kicad_pro。首次打开时使用项目内fp-lib-table和sym-lib-table；所有项目库都用${KIPRJMOD}相对路径。11张原理图及项目配置来自当前RF109；移植后原理图导出的components与nets与源工程一致。
