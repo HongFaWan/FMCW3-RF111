@@ -1,0 +1,173 @@
+﻿Reference,Pin,Gerber_X_mm,Gerber_Y_mm,Drill_X_mm,Drill_Y_mm,Current paste overlap side,Review request
+,,107.080219,-105.54183,0.254,0.254,bottom,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,115.030219,-96.49183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,117.6056,-60.5185,0.25,0.25,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,118.7,-89.25,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,118.7,-90.15,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,119.45,-89.25,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,119.45,-90.15,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,119.95,-80.65,0.4,0.4,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,122.35,-80.65,0.4,0.4,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,123.551872,-101.02263,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,125.6125,-59.6,0.25,0.25,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,138.480219,-100.69183,0.254,0.254,bottom,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,144.310273,-95.95183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,144.565,-64.959999,0.25,0.25,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,145.065,-61.79,0.25,0.25,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,146.570219,-98.05183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,147.160219,-97.32183,0.254,0.254,bottom,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,147.244146,-99.25184,0.254,0.254,bottom,Quote resin fill and planar copper cap; confirm via and cap drawing
+U22,,150.821005,-78.014417,0.3,0.3,top,Quote resin fill and planar copper cap; confirm via and cap drawing; maintain the opposite exposed contact
+U22,,150.821005,-78.714417,0.3,0.3,top,Quote resin fill and planar copper cap; confirm via and cap drawing; maintain the opposite exposed contact
+U22,,150.821005,-79.414417,0.3,0.3,top,Quote resin fill and planar copper cap; confirm via and cap drawing; maintain the opposite exposed contact
+U22,,150.821005,-80.114417,0.3,0.3,top,Quote resin fill and planar copper cap; confirm via and cap drawing; maintain the opposite exposed contact
+,,150.96,-66.565,0.25,0.25,bottom,Quote resin fill and planar copper cap; confirm via and cap drawing
+U22,,151.421005,-78.014417,0.3,0.3,top,Quote resin fill and planar copper cap; confirm via and cap drawing; maintain the opposite exposed contact
+U22,,151.421005,-78.714417,0.3,0.3,top,Quote resin fill and planar copper cap; confirm via and cap drawing; maintain the opposite exposed contact
+U22,,151.421005,-79.414417,0.3,0.3,top,Quote resin fill and planar copper cap; confirm via and cap drawing; maintain the opposite exposed contact
+U22,,151.421005,-80.114417,0.3,0.3,top,Quote resin fill and planar copper cap; confirm via and cap drawing; maintain the opposite exposed contact
+,,151.630219,-91.89183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,151.630219,-93.89183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,151.630219,-94.89183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,151.630219,-95.89183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,151.630219,-96.89183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+U22,,152.021005,-78.014417,0.3,0.3,top,Quote resin fill and planar copper cap; confirm via and cap drawing; maintain the opposite exposed contact
+U22,,152.021005,-78.714417,0.3,0.3,top,Quote resin fill and planar copper cap; confirm via and cap drawing; maintain the opposite exposed contact
+U22,,152.021005,-79.414417,0.3,0.3,top,Quote resin fill and planar copper cap; confirm via and cap drawing; maintain the opposite exposed contact
+U22,,152.021005,-80.114417,0.3,0.3,top,Quote resin fill and planar copper cap; confirm via and cap drawing; maintain the opposite exposed contact
+,,152.630219,-91.89183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,152.630219,-93.89183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,152.630219,-94.89183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,152.630219,-95.89183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,152.630219,-96.89183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,153.065,-63.04,0.25,0.25,bottom,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,153.630219,-91.89183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,153.630219,-93.89183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,153.630219,-94.89183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,153.630219,-95.89183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,153.630219,-96.89183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,154.315,-63.985,0.25,0.25,bottom/top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,154.630219,-91.89183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,154.630219,-93.89183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,154.630219,-94.89183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,154.630219,-95.89183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,154.630219,-96.89183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,155.270219,-101.47183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,155.630219,-91.89183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,155.630219,-93.89183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,155.630219,-94.89183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,155.630219,-95.89183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,155.630219,-96.89183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,156.4,-84.8,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,156.630219,-91.89183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,156.630219,-93.89183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,156.630219,-94.89183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,156.630219,-95.89183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,156.630219,-96.89183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,157.368805,-70.461217,0.25,0.25,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,157.47,-71.81,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,158.27,-70.11,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,158.27,-71.81,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,158.525,-80.125,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,158.525,-81.875,0.25,0.25,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,158.910219,-75.07183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,159.1,-81.75,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,159.45,-80.05,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,160.735,-58.315,0.25,0.25,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,162.440219,-74.09183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,166.32,-62.1,0.25,0.25,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,166.380219,-78.24183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+U10,PAD,166.400219,-73.41183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+U10,PAD,166.400219,-74.41183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+U10,PAD,166.400219,-75.41183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+U10,PAD,166.900219,-73.91183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+U10,PAD,166.900219,-74.91183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,167.130219,-79.54183,0.254,0.254,bottom,Quote resin fill and planar copper cap; confirm via and cap drawing
+U10,PAD,167.400219,-73.41183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+U10,PAD,167.400219,-74.41183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+U10,PAD,167.400219,-75.41183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+U10,PAD,167.900219,-73.91183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+U10,PAD,167.900219,-74.91183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,167.930219,-79.59183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+U10,PAD,168.400219,-73.41183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+U10,PAD,168.400219,-74.41183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+U10,PAD,168.400219,-75.41183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,168.54,-62.98,0.25,0.25,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,169.430219,-88.76683,0.254,0.254,bottom/top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,170.280219,-69.29183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,170.82,-61.56,0.25,0.25,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+U1,PAD,171.140219,-80.17183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+U1,PAD,171.140219,-80.82183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+U1,PAD,171.140219,-81.47183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+U1,PAD,171.790219,-80.17183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+U1,PAD,171.790219,-80.82183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+U1,PAD,171.790219,-81.47183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,171.980219,-91.54183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,171.980219,-93.04183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,172.097882,-78.563163,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+U1,PAD,172.440219,-80.17183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+U1,PAD,172.440219,-80.82183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+U1,PAD,172.440219,-81.47183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,173.530219,-91.54183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,173.530219,-93.04183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,174.45,-73.0,0.254,0.254,,Quote resin fill and planar copper cap; confirm via and cap drawing; confirm if stencil geometry allows removal from process
+,,174.75,-82.0,0.25,0.25,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,175.38,-73.0,0.254,0.254,,Quote resin fill and planar copper cap; confirm via and cap drawing; confirm if stencil geometry allows removal from process
+,,175.820219,-81.29183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,176.26,-73.0,0.254,0.254,,Quote resin fill and planar copper cap; confirm via and cap drawing; confirm if stencil geometry allows removal from process
+,,178.98,-60.0,0.25,0.25,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,179.098936,-61.560447,0.25,0.25,bottom,Quote resin fill and planar copper cap; confirm via and cap drawing
+U14,21,180.0075,-73.33,0.3,0.3,top,Quote resin fill and planar copper cap; confirm via and cap drawing; maintain the opposite exposed contact; min 25 um barrel requested
+U14,21,180.0075,-73.93,0.3,0.3,top,Quote resin fill and planar copper cap; confirm via and cap drawing; maintain the opposite exposed contact; min 25 um barrel requested
+U14,21,180.0075,-74.53,0.3,0.3,top,Quote resin fill and planar copper cap; confirm via and cap drawing; maintain the opposite exposed contact; min 25 um barrel requested
+U14,21,180.0075,-75.13,0.3,0.3,top,Quote resin fill and planar copper cap; confirm via and cap drawing; maintain the opposite exposed contact; min 25 um barrel requested
+,,180.316,-58.156,0.25,0.25,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+U14,21,180.5875,-73.33,0.3,0.3,top,Quote resin fill and planar copper cap; confirm via and cap drawing; maintain the opposite exposed contact; min 25 um barrel requested
+U14,21,180.5875,-73.93,0.3,0.3,top,Quote resin fill and planar copper cap; confirm via and cap drawing; maintain the opposite exposed contact; min 25 um barrel requested
+U14,21,180.5875,-74.53,0.3,0.3,top,Quote resin fill and planar copper cap; confirm via and cap drawing; maintain the opposite exposed contact; min 25 um barrel requested
+U14,21,180.5875,-75.13,0.3,0.3,top,Quote resin fill and planar copper cap; confirm via and cap drawing; maintain the opposite exposed contact; min 25 um barrel requested
+U14,21,181.1675,-73.33,0.3,0.3,top,Quote resin fill and planar copper cap; confirm via and cap drawing; maintain the opposite exposed contact; min 25 um barrel requested
+U14,21,181.1675,-73.93,0.3,0.3,top,Quote resin fill and planar copper cap; confirm via and cap drawing; maintain the opposite exposed contact; min 25 um barrel requested
+U14,21,181.1675,-74.53,0.3,0.3,top,Quote resin fill and planar copper cap; confirm via and cap drawing; maintain the opposite exposed contact; min 25 um barrel requested
+U14,21,181.1675,-75.13,0.3,0.3,top,Quote resin fill and planar copper cap; confirm via and cap drawing; maintain the opposite exposed contact; min 25 um barrel requested
+U14,21,181.7475,-73.33,0.3,0.3,top,Quote resin fill and planar copper cap; confirm via and cap drawing; maintain the opposite exposed contact; min 25 um barrel requested
+U14,21,181.7475,-73.93,0.3,0.3,top,Quote resin fill and planar copper cap; confirm via and cap drawing; maintain the opposite exposed contact; min 25 um barrel requested
+U14,21,181.7475,-74.53,0.3,0.3,top,Quote resin fill and planar copper cap; confirm via and cap drawing; maintain the opposite exposed contact; min 25 um barrel requested
+U14,21,181.7475,-75.13,0.3,0.3,top,Quote resin fill and planar copper cap; confirm via and cap drawing; maintain the opposite exposed contact; min 25 um barrel requested
+,,184.66023,-85.336559,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,185.491619,-77.74643,0.254,0.254,,Quote resin fill and planar copper cap; confirm via and cap drawing; confirm if stencil geometry allows removal from process
+,,185.855219,-84.21683,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,186.080219,-98.81683,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,186.205219,-85.51683,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,186.980219,-98.84183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,187.255219,-85.51683,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,189.0,-88.14183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+,,189.080219,-101.49183,0.254,0.254,top,Quote resin fill and planar copper cap; confirm via and cap drawing
+P7,1,188.615819,-70.43123,3.2,3.2,,Keep open for terminal or mounting
+P5,1,191.980219,-110.69183,3.2,3.2,,Keep open for terminal or mounting
+J1,,99.175,-97.96,0.65,0.65,,Keep open for terminal or mounting
+J1,,99.175,-103.74,0.65,0.65,,Keep open for terminal or mounting
+J1,S1,99.675,-96.53,0.6,1.7,,Keep open for terminal or mounting
+J1,S1,95.495,-96.53,0.6,1.4,,Keep open for terminal or mounting
+J1,S1,99.675,-105.17,0.6,1.7,,Keep open for terminal or mounting
+J1,S1,95.495,-105.17,0.6,1.4,,Keep open for terminal or mounting
+P8,1,97.822056,-110.672056,3.2,3.2,,Keep open for terminal or mounting
+J2,1,142.08,-109.36,1.0,1.0,,Keep open for terminal or mounting
+J2,2,142.08,-111.9,1.0,1.0,,Keep open for terminal or mounting
+J2,3,139.54,-109.36,1.0,1.0,,Keep open for terminal or mounting
+J2,4,139.54,-111.9,1.0,1.0,,Keep open for terminal or mounting
+J2,5,137.0,-109.36,1.0,1.0,,Keep open for terminal or mounting
+J2,6,137.0,-111.9,1.0,1.0,,Keep open for terminal or mounting
+J2,7,134.46,-109.36,1.0,1.0,,Keep open for terminal or mounting
+J2,8,134.46,-111.9,1.0,1.0,,Keep open for terminal or mounting
+J2,9,131.92,-109.36,1.0,1.0,,Keep open for terminal or mounting
+J2,10,131.92,-111.9,1.0,1.0,,Keep open for terminal or mounting
+J2,11,129.38,-109.36,1.0,1.0,,Keep open for terminal or mounting
+J2,12,129.38,-111.9,1.0,1.0,,Keep open for terminal or mounting
+J2,13,126.84,-109.36,1.0,1.0,,Keep open for terminal or mounting
+J2,14,126.84,-111.9,1.0,1.0,,Keep open for terminal or mounting
+J2,15,124.3,-109.36,1.0,1.0,,Keep open for terminal or mounting
+J2,16,124.3,-111.9,1.0,1.0,,Keep open for terminal or mounting
+CON2,1,102.0,-72.5,1.2,3.5,,Keep open for terminal or mounting
+CON2,2,96.0,-72.5,1.2,3.0,,Keep open for terminal or mounting
+CON2,3,99.0,-77.2,3.0,1.2,,Keep open for terminal or mounting

@@ -26,3 +26,6 @@ https://hforsten.com/homemade-polarimetric-synthetic-aperture-radar-drone.html
 2026-11-18采用RF111：三路降压电感改为TDK SPM6530T-1R0M120/3R3M/4R7M，按系列建议自建两矩形焊盘、修正实例角度与L6微位移，同时更新106组BOM/CPL和制造数据。系列公开尺寸/焊盘资料来源：
 https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_spm6530_en.pdf
 不附数据手册、原厂模型或报告。本段之后的RF111为当前版本，前述RF110仅为修改沿革。
+
+
+2026-11-23 追加 RF111 0.250 mm 工程候选。分支保留该候选的原生几何。候选中引用的 KiCad 标准封装源自官方库；其库文件适用 KiCad 库许可及其例外，详情见 https://www.kicad.org/libraries/license/ 。

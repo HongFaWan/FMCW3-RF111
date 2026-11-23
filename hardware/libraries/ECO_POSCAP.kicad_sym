@@ -1,0 +1,21 @@
+(kicad_symbol_lib (version 20231120) (generator eeschema)
+(symbol "TQC_D2"
+  (pin_numbers (hide yes)) (pin_names (offset 0.254) (hide yes))
+  (exclude_from_sim no) (in_bom yes) (on_board yes)
+  (property "Reference" "C" (at 2.54 1.27 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Value" "TQC_D2" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Footprint" "ECO_POSCAP:CP_Panasonic_POSCAP_TQC_D2" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/poscap/models/16TQC100MD2" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "Polarized Panasonic TQC D2 polymer capacitor" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "ki_fp_filters" "CP_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (symbol "TQC_D2_0_1"
+   (polyline (pts (xy -2.03 .76) (xy 2.03 .76)) (stroke (width 0.30) (type default)) (fill (type none)))
+   (polyline (pts (xy -2.03 -.76) (xy 2.03 -.76)) (stroke (width 0.30) (type default)) (fill (type none)))
+   (polyline (pts (xy -2.03 2.03) (xy -1.02 2.03)) (stroke (width 0.18) (type default)) (fill (type none)))
+   (polyline (pts (xy -1.525 1.525) (xy -1.525 2.535)) (stroke (width 0.18) (type default)) (fill (type none)))
+  )
+  (symbol "TQC_D2_1_1"
+   (pin passive line (at 0 3.81 270) (length 3.05) (name "~" (effects (font (size 1 1)))) (number "1" (effects (font (size 1 1)))))
+   (pin passive line (at 0 -3.81 90) (length 3.05) (name "~" (effects (font (size 1 1)))) (number "2" (effects (font (size 1 1)))))
+  )
+))

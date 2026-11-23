@@ -3,8 +3,520 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "3902d8ef-a49e-4095-8fe6-8108c21d1df4")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
+(symbol "RF111_USB_SENSE:74LVC1G17"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74LVC1G17"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at -2.54 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf"
+			(at 0 -6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Single Schmitt Buffer Gate, Low-Voltage CMOS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Single Gate Buff Schmitt LVC CMOS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "SOT?23* SOT?553* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "74LVC1G17_0_1"
+			(polyline
+				(pts
+					(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -1.27) (xy -2.54 -1.27) (xy -2.54 1.27) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -1.27) (xy -1.27 -1.27) (xy -1.27 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "74LVC1G17_1_1"
+			(pin no_connect line
+				(at -7.62 5.08 180)
+				(length 5.08)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 0 0)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 -10.16 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 10.16 270)
+				(length 5.08)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "RF111_USB_SENSE:R"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "RF111_USB_SENSE:C"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 0.635 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.9652 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_0_1"
+			(polyline
+				(pts
+					(xy -2.032 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 		(symbol "Connector:USB_C_Receptacle_USB2.0"
 			(pin_names
 				(offset 1.016)
@@ -3737,7 +4249,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 151.13) (xy 218.44 151.13)
+			(xy 213.36 151.13) (xy 214.63 151.13)
 		)
 		(stroke
 			(width 0)
@@ -9079,4 +9591,33 @@
 
 (symbol (lib_id "FMCW3_ECO:PWR_FLAG") (at 124.46 33.02 0)(unit 1)(exclude_from_sim no)(in_bom no)(on_board yes)(dnp no)(uuid "555e1756-a04f-4151-bcc2-d99035325f99")(property "Reference" "#FLG9914" (at 124.46 35.56 0)(effects(font(size 1 1))(hide yes)))(property "Value" "PWR_FLAG" (at 124.46 29.21 0)(effects(font(size 1 1))(hide yes)))(property "Footprint" "" (at 124.46 33.02 0)(effects(font(size 1 1))(hide yes)))(pin "1" (uuid "59a8e903-71b1-4218-84c4-3f1bf8c8cb56"))(instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-000059395d6a/00000000-0000-0000-0000-0000583abbe9" (reference "#FLG9914")(unit 1)))))
 (symbol (lib_id "FMCW3_ECO:PWR_FLAG") (at 124.46 26.67 0)(unit 1)(exclude_from_sim no)(in_bom no)(on_board yes)(dnp no)(uuid "fdeb4446-bf65-476a-b8af-4faed6ed9854")(property "Reference" "#FLG9915" (at 124.46 29.21 0)(effects(font(size 1 1))(hide yes)))(property "Value" "PWR_FLAG" (at 124.46 22.86 0)(effects(font(size 1 1))(hide yes)))(property "Footprint" "" (at 124.46 26.67 0)(effects(font(size 1 1))(hide yes)))(pin "1" (uuid "6aaec007-e6de-47c7-8abd-c069e8f45049"))(instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-000059395d6a/00000000-0000-0000-0000-0000583abbe9" (reference "#FLG9915")(unit 1)))))
+
+(global_label "FTDI_RESET_N" (shape passive) (at 127 92.71 0) (effects (font (size .9 .9)) (justify right)) (uuid "09aca0b9-38e7-5e35-99f0-bc34604d0314"))
+
+(symbol (lib_id "RF111_USB_SENSE:74LVC1G17") (at 319.000 62.000 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "682ca7a1-2a61-5ba6-aa3a-145f91c70be8") (property "Reference" "U690" (at 319.000 57.000 0) (effects (font (size 1.05 1.05)) ))(property "Value" "SN74LVC1G17DCKR" (at 319.000 55.000 0) (effects (font (size 1.05 1.05)) ))(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5" (at 319.000 62.000 0) (effects (font (size 1.05 1.05)) (hide yes)))(pin "1" (uuid "67f581d4-007d-5d9d-b253-85d8a774c0d4"))(pin "2" (uuid "a46cebd8-0c09-5450-b048-8300e8fe968f"))(pin "3" (uuid "13775119-8673-5e27-a12c-0713415dd620"))(pin "4" (uuid "5224b49b-8e5f-5759-9099-7c4f3b11ad75"))(pin "5" (uuid "f9abf15b-9ef0-5f5a-a78c-3dd9594fe9f3"))(instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-000059395d6a/00000000-0000-0000-0000-0000583abbe9" (reference "U690") (unit 1)))))
+(wire (pts (xy 306.300 62.000) (xy 298.680 62.000)) (stroke (width 0) (type default)) (uuid "a9520ae4-916b-5f54-8789-cc65c8e76429"))
+(label "USB_VBUS_DIV"  (at 298.680 62.000 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "7c17c087-e254-5df9-b240-786029f3f6fe"))
+(wire (pts (xy 313.920 72.160) (xy 313.920 77.240)) (stroke (width 0) (type default)) (uuid "770a15b3-4325-5c4f-8a75-8d40853c5879"))
+(global_label "GND" (shape passive) (at 313.920 77.240 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "14f362eb-37e0-566c-a9d4-90bec67ead5c"))
+(wire (pts (xy 329.160 62.000) (xy 336.780 62.000)) (stroke (width 0) (type default)) (uuid "8819df4d-c869-5976-b523-439c2c47a160"))
+(label "USB_SENSE_BUF"  (at 336.780 62.000 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "8dd6aa6b-bfc0-520c-bd16-fa7f96a4c6da"))
+(wire (pts (xy 313.920 51.840) (xy 313.920 46.760)) (stroke (width 0) (type default)) (uuid "85d027b4-dd34-5138-8e50-1d80e636bec7"))
+(global_label "LO_3V3D"  (at 313.920 46.760 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "26b35344-83e1-5955-b08b-c21ed861d96f"))
+(symbol (lib_id "RF111_USB_SENSE:R") (at 358.000 62.000 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "4bbb15af-26f1-5403-9f4a-6c1b56f5c98f") (property "Reference" "R690" (at 358.000 57.000 0) (effects (font (size 1.05 1.05)) ))(property "Value" "4.7k" (at 358.000 55.000 0) (effects (font (size 1.05 1.05)) ))(property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 358.000 62.000 0) (effects (font (size 1.05 1.05)) (hide yes)))(pin "1" (uuid "ba9223e4-3347-57a7-9f88-448a1168320b"))(pin "2" (uuid "1e675c79-047c-5fdf-94ef-0f3760cce57d"))(instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-000059395d6a/00000000-0000-0000-0000-0000583abbe9" (reference "R690") (unit 1)))))
+(wire (pts (xy 358.000 58.190) (xy 358.000 53.110)) (stroke (width 0) (type default)) (uuid "bf67c6e7-3360-5885-aa24-77fceff76501"))
+(label "USB_SENSE_BUF"  (at 358.000 53.110 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "709fff89-c317-5b2a-bf5b-96f39cf532ae"))
+(wire (pts (xy 358.000 65.810) (xy 358.000 70.890)) (stroke (width 0) (type default)) (uuid "601ea716-2998-5dc4-a93a-2fb2dab54afb"))
+(label "USB_FTDI_SENSE"  (at 358.000 70.890 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "b8eb581e-7710-5399-b1ba-4afff8d024be"))
+(symbol (lib_id "RF111_USB_SENSE:R") (at 321.000 103.000 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "f8d2345b-0ec0-59fd-8a73-4415b149b469") (property "Reference" "R691" (at 321.000 98.000 0) (effects (font (size 1.05 1.05)) ))(property "Value" "22k" (at 321.000 96.000 0) (effects (font (size 1.05 1.05)) ))(property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 321.000 103.000 0) (effects (font (size 1.05 1.05)) (hide yes)))(pin "1" (uuid "d07c0d65-a851-5204-8684-51dc9a6f69b4"))(pin "2" (uuid "ecc95c7d-27e7-5afe-9266-97af09574aa8"))(instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-000059395d6a/00000000-0000-0000-0000-0000583abbe9" (reference "R691") (unit 1)))))
+(wire (pts (xy 321.000 99.190) (xy 321.000 94.110)) (stroke (width 0) (type default)) (uuid "46cf06ea-2c77-5277-b8c3-e1013adff4ab"))
+(global_label "LO_3V3D"  (at 321.000 94.110 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "39f4f56e-8cd6-5cf7-8123-9e853a2d361b"))
+(wire (pts (xy 321.000 106.810) (xy 321.000 111.890)) (stroke (width 0) (type default)) (uuid "7b518afd-8c82-5b1b-af70-91d59609be38"))
+(global_label "GND" (shape passive) (at 321.000 111.890 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "32d67ae3-fc37-5eb5-9232-848e9bd1e3e5"))
+(symbol (lib_id "RF111_USB_SENSE:C") (at 358.000 103.000 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "bc43feb8-13d4-5d6b-9bea-557116cfbaa3") (property "Reference" "C690" (at 358.000 98.000 0) (effects (font (size 1.05 1.05)) ))(property "Value" "100nF" (at 358.000 96.000 0) (effects (font (size 1.05 1.05)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 358.000 103.000 0) (effects (font (size 1.05 1.05)) (hide yes)))(pin "1" (uuid "bd5055ab-0a6f-59dc-87ef-4482aaafe265"))(pin "2" (uuid "3980b6e4-f893-57bf-82f4-4916f6bc2c44"))(instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-000059395d6a/00000000-0000-0000-0000-0000583abbe9" (reference "C690") (unit 1)))))
+(wire (pts (xy 358.000 99.190) (xy 358.000 94.110)) (stroke (width 0) (type default)) (uuid "e0cd9ee6-5ee8-5df2-96aa-15bed14df5b6"))
+(global_label "LO_3V3D"  (at 358.000 94.110 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "491a23f9-59ba-5c87-b645-f586a28675fb"))
+(wire (pts (xy 358.000 106.810) (xy 358.000 111.890)) (stroke (width 0) (type default)) (uuid "00cef6b7-2e53-583e-aa57-143375d7dbaa"))
+(global_label "GND" (shape passive) (at 358.000 111.890 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "51354ffe-16d2-545a-adb3-c2d17a3918fd"))
+(label "USB_VBUS_DIV"  (at 218.440 151.130 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "595f40f2-6e90-5fb5-8c2a-3349d93118e8"))
+(label "USB_FTDI_SENSE"  (at 214.630 151.130 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "ed2065f9-f421-5715-9ec1-eaa0f012005a"))
 )

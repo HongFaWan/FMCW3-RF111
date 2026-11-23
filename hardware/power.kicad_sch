@@ -5,6 +5,27 @@
 	(uuid "e24cab2d-c5ef-4990-9742-46c917001e5c")
 	(paper "A3")
 	(lib_symbols
+		(symbol "ECO_POSCAP:TQC_D2"
+  (pin_numbers (hide yes)) (pin_names (offset 0.254) (hide yes))
+  (exclude_from_sim no) (in_bom yes) (on_board yes)
+  (property "Reference" "C" (at 2.54 1.27 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Value" "TQC_D2" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Footprint" "ECO_POSCAP:CP_Panasonic_POSCAP_TQC_D2" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/poscap/models/16TQC100MD2" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "Polarized Panasonic TQC D2 polymer capacitor" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "ki_fp_filters" "CP_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (symbol "TQC_D2_0_1"
+   (polyline (pts (xy -2.03 .76) (xy 2.03 .76)) (stroke (width 0.30) (type default)) (fill (type none)))
+   (polyline (pts (xy -2.03 -.76) (xy 2.03 -.76)) (stroke (width 0.30) (type default)) (fill (type none)))
+   (polyline (pts (xy -2.03 2.03) (xy -1.02 2.03)) (stroke (width 0.18) (type default)) (fill (type none)))
+   (polyline (pts (xy -1.525 1.525) (xy -1.525 2.535)) (stroke (width 0.18) (type default)) (fill (type none)))
+  )
+  (symbol "TQC_D2_1_1"
+   (pin passive line (at 0 3.81 270) (length 3.05) (name "~" (effects (font (size 1 1)))) (number "1" (effects (font (size 1 1)))))
+   (pin passive line (at 0 -3.81 90) (length 3.05) (name "~" (effects (font (size 1 1)))) (number "2" (effects (font (size 1 1)))))
+  )
+)
+
 		(symbol "GND:GND"
 			(power)
 			(pin_names
@@ -4030,16 +4051,7 @@
 		)
 		(uuid "0a02963b-3c7d-40f0-b5fd-f040978b84d3")
 	)
-	(wire
-		(pts
-			(xy 36.83 21.59) (xy 50.8 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a9ab424-f8b4-415c-8169-345ca8eafb68")
-	)
+	
 	(wire
 		(pts
 			(xy 243.84 142.24) (xy 243.84 143.51)
@@ -5272,7 +5284,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 58.42) (xy 142.24 58.42)
+			(xy 128.27 58.42) (xy 142.24 58.42)
 		)
 		(stroke
 			(width 0)
@@ -14785,4 +14797,75 @@
 
 (wire (pts (xy 81.28 175.26) (xy 82.55 175.26)) (stroke (width 0) (type default)) (uuid "2d5a8538-8474-4042-8d39-6d7546ea33cf"))
 (wire (pts (xy 82.55 175.26) (xy 82.55 180.34)) (stroke (width 0) (type default)) (uuid "3579700e-7086-4850-9dbd-30fa01275281"))
+	(wire (pts (xy 119.38 58.42) (xy 128.27 58.42)) (stroke (width 0) (type default)) (uuid "47a7c381-1244-4070-809c-c9b2ad5418c9"))
+	(wire (pts (xy 119.38 66.04) (xy 128.27 66.04)) (stroke (width 0) (type default)) (uuid "bd4b1b21-8a06-4490-ac59-a16ca14e104f"))
+	(junction (at 128.27 58.42) (diameter 0) (color 0 0 0 0) (uuid "95f35c52-2a9c-443d-95c0-c1936fb4e43a"))
+	(junction (at 119.38 66.04) (diameter 0) (color 0 0 0 0) (uuid "6a8ceb9f-d5cc-4c37-bf25-a4bc44b600d0"))
+	(symbol
+		(lib_id "fmcw3-rescue:C") (at 128.27 62.23 0) (unit 1)
+		(exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+		(uuid "8396d784-21d4-467b-b13e-5b3945708d66")
+		(property "Reference" "C501" (at 130.81 61.15 0) (effects (font (size 1.0 1.0)) (justify left)))
+		(property "Value" "390p" (at 130.81 63.10 0) (effects (font (size 1.0 1.0)) (justify left)))
+		(property "Footprint" "Footprints:SMD_0402" (at 128.27 62.23 0) (effects (font (size 1 1)) (hide yes)))
+		(property "MPN" "GRM1555C1H391JA01D" (at 128.27 62.23 0) (effects (font (size 1 1)) (hide yes)))
+		(pin "1" (uuid "be96d079-90b0-43f3-9362-1fab89bc9355")) (pin "2" (uuid "f55b7330-4e2a-4d2b-92a1-3bd09be03e97"))
+		(instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-0000593d9285" (reference "C501") (unit 1))))
+	)
+
+	(symbol (lib_id "ECO_POSCAP:TQC_D2") (at 325.12 222.25 0) (unit 1)
+  (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "3e29e569-3df4-43fc-bc21-9c4d25f321fc")
+  (property "Reference" "C502" (at 328.170 220.980 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Value" "100u" (at 328.170 223.520 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Footprint" "ECO_POSCAP:CP_Panasonic_POSCAP_TQC_D2" (at 325.120 222.250 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/poscap/models/16TQC100MD2" (at 325.120 222.250 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN" "16TQC100MD2" (at 325.120 222.250 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "a2fac2bc-3765-4af0-95ff-36d1a794373d")) (pin "2" (uuid "db958e9b-7e5a-4663-82b7-de688f53ad8e"))
+  (instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-0000593d9285" (reference "C502") (unit 1)))))
+	(symbol (lib_id "GND:GND") (at 325.12 229.870 0) (unit 1)
+  (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "ffdbe2ed-f6a4-4ac7-a021-0114b0cba1b6")
+  (property "Reference" "#PWR0502" (at 325.120 229.870 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Value" "GND" (at 325.120 233.680 0) (effects (font (size 1.27 1.27))))
+  (pin "1" (uuid "77da68fd-a7db-4e99-b093-e883c7d69384"))
+  (instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-0000593d9285" (reference "#PWR0502") (unit 1)))))
+	(label "5V6" (at 325.120 214.630 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ef6e3eb3-97ab-474b-b6f6-51df0df76863"))
+	(wire (pts (xy 325.120 214.630) (xy 325.120 218.440)) (stroke (width 0) (type default)) (uuid "1c6bf3c2-4af2-4838-99bd-1e182fe9e3bd"))
+	(wire (pts (xy 325.120 226.060) (xy 325.120 229.870)) (stroke (width 0) (type default)) (uuid "f5fdcd8f-8be1-4381-8ad7-8ba4d51dc83e"))
+	(symbol (lib_id "ECO_POSCAP:TQC_D2") (at 350.52 222.25 0) (unit 1)
+  (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "f8a80354-7f6d-4d15-8d61-11aabf566747")
+  (property "Reference" "C503" (at 353.570 220.980 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Value" "100u" (at 353.570 223.520 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Footprint" "ECO_POSCAP:CP_Panasonic_POSCAP_TQC_D2" (at 350.520 222.250 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/poscap/models/16TQC100MD2" (at 350.520 222.250 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN" "16TQC100MD2" (at 350.520 222.250 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "cc804c6c-2bb4-4438-9837-07b5f5695821")) (pin "2" (uuid "4cd43b11-05f5-4914-848f-163c27eba7d3"))
+  (instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-0000593d9285" (reference "C503") (unit 1)))))
+	(symbol (lib_id "GND:GND") (at 350.52 229.870 0) (unit 1)
+  (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "62f02c9e-893d-444e-8e03-55a819df2596")
+  (property "Reference" "#PWR0503" (at 350.520 229.870 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Value" "GND" (at 350.520 233.680 0) (effects (font (size 1.27 1.27))))
+  (pin "1" (uuid "c50244dc-005f-48aa-9c90-d5264d8c5298"))
+  (instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-0000593d9285" (reference "#PWR0503") (unit 1)))))
+	(label "5V6" (at 350.520 214.630 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "0e263adc-fdc2-441a-913b-2b1eb446fbd0"))
+	(wire (pts (xy 350.520 214.630) (xy 350.520 218.440)) (stroke (width 0) (type default)) (uuid "3b8d0e7b-023f-4fa2-99d2-9de58cd93520"))
+	(wire (pts (xy 350.520 226.060) (xy 350.520 229.870)) (stroke (width 0) (type default)) (uuid "b50db93f-219e-4d07-9dee-e1bfd9c74cf3"))
+
+ (sheet (at 304.8 254) (size 45.72 20.32) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+  (stroke (width 0) (type solid)) (fill (color 0 0 0 0.0000)) (uuid "39eda811-2f83-4c6c-bee6-857c51654454")
+  (property "Sheetname" "RF5V power" (at 304.8 252.73 0) (effects (font (size 1.524 1.524)) (justify left bottom)))
+  (property "Sheetfile" "rf5v_power.kicad_sch" (at 304.8 275.59 0) (effects (font (size 1.524 1.524)) (justify left top)))
+  (pin "PROTECTED_12V" input (at 304.8 261.62 180) (uuid "85a5c89f-0a0c-40f6-a7fe-1f701ab5696b") (effects (font (size 1.27 1.27)) (justify left)))
+  (instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-0000593d9285" (page "12"))))
+ )
+ (wire (pts (xy 304.8 261.62) (xy 292.1 261.62)) (stroke (width 0) (type default)) (uuid "936e4c64-d1d9-4bac-ba22-3c369a7b652e"))
+ (label "12V" (at 292.1 261.62 0) (effects (font (size 1.02 1.02)) (justify left bottom)) (uuid "707c1920-6b57-43b9-840b-300c40b62b7a"))
+
+(sheet (at 205.74 251.46) (size 50.8 15.24) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (stroke (width 0) (type solid)) (fill (color 0 0 0 0)) (uuid "9f924282-346a-4aa7-a9bd-5cb814a1ae49") (property "Sheetname" "Rail interlock" (at 205.74 250.19 0) (effects (font (size 1.4 1.4)) (justify left bottom))) (property "Sheetfile" "hardware_guard.kicad_sch" (at 205.74 267.97 0) (effects (font (size 1.4 1.4)) (justify left top))) (instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-0000593d9285" (page "15")))))
+
+(global_label "VIN_RAW_12V" (shape passive) (at 36.83 21.59 0) (effects (font (size .9 .9)) (justify right)) (uuid "5c472a5e-e1c7-56cf-8c6d-d4b76e7eeb7b"))
+
+(global_label "EFUSE_OUT_12V" (shape passive) (at 50.800 21.590 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "2587e17a-6a47-5040-9073-a137c594daea"))
+(sheet (at 116.84 254) (size 50.8 20.32) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (stroke (width 0) (type solid)) (fill (color 0 0 0 0)) (uuid "7aae15a4-b6dc-5aff-8cc0-31797b876bd3") (property "Sheetname" "Input eFuse" (at 140.970 251.460 0) (effects (font (size 1.05 1.05)) ))(property "Sheetfile" "input_efuse.kicad_sch" (at 142.240 276.860 0) (effects (font (size 1.05 1.05)) ))(pin "PROTECTED_12V" input (at 116.84 261.62 180) (uuid "239a2738-621b-559d-ac9c-304fc0227ea2") (effects (font (size 1 1)) (justify left))) (instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-0000593d9285" (page "17")))))
+(wire (pts (xy 116.840 261.620) (xy 106.680 261.620)) (stroke (width 0) (type default)) (uuid "7cbcef14-4aa1-5c88-957c-ed842904132b"))
+(label "12V"  (at 106.680 261.620 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "06ecd17f-2a9e-5339-a9ed-0597efe7a77a"))
 )

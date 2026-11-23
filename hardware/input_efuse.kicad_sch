@@ -1,0 +1,1074 @@
+(kicad_sch (version 20250114) (generator "eeschema") (uuid "1f0ee316-dda8-5e70-a8ad-73c949d38f19") (paper "A4") (lib_symbols (symbol "RF111_INLET:TPS26600PWP"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at -8.89 16.764 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS26600PWP"
+			(at 7.62 16.764 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.66x2.46mm_ThermalVias"
+			(at 0 -30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2660.pdf"
+			(at 0 -33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "60V, 2A Current Limiting, Industrial eFuse, Reverse Current Blocking, Adjustable Overvoltage cut-off, Active Current Limiting, Circuit Breaker with auto-retry, HTSSOP-16"
+			(at 0 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "efuse protection switch"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "HTSSOP*1EP*4.4x5mm*P0.65mm*Mask2.66x2.46mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "TPS26600PWP_0_1"
+			(rectangle
+				(start -10.16 15.24)
+				(end 10.16 -15.24)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "TPS26600PWP_1_0"
+			(pin no_connect line
+				(at -10.16 0 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 10.16 -8.89 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "TPS26600PWP_1_1"
+			(pin power_in line
+				(at -12.7 12.7 0)
+				(length 2.54)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 12.7 0)
+				(length 2.54)
+				(hide yes)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 5.08 0)
+				(length 2.54)
+				(name "UVLO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -2.54 0)
+				(length 2.54)
+				(name "OVP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -10.16 0)
+				(length 2.54)
+				(name "MODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -12.7 0)
+				(length 2.54)
+				(name "~{SHDN}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -17.78 90)
+				(length 2.54)
+				(name "RTN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 -17.78 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -2.54 180)
+				(length 2.54)
+				(name "IMON"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 -10.16 180)
+				(length 2.54)
+				(name "ILIM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 -12.7 180)
+				(length 2.54)
+				(name "dVdT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name "~{FLT}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 12.7 12.7 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 12.7 180)
+				(length 2.54)
+				(hide yes)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -17.78 90)
+				(length 2.54)
+				(hide yes)
+				(name "RTN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "RF111_INLET:R"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "RF111_INLET:C"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 0.635 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.9652 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_0_1"
+			(polyline
+				(pts
+					(xy -2.032 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "RF111_INLET:C_Polarized"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 0.635 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.9652 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "CP_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_Polarized_0_1"
+			(rectangle
+				(start -2.286 0.508)
+				(end 2.286 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 2.286) (xy -0.762 2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 2.794) (xy -1.27 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2.286 -0.508)
+				(end -2.286 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "C_Polarized_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "RF111_INLET:PWR_FLAG"
+		(power global)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "#FLG"
+			(at 0 1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 0 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "flag power"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "PWR_FLAG_0_0"
+			(pin power_out line
+				(at 0 0 90)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PWR_FLAG_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	))
+(symbol (lib_id "RF111_INLET:TPS26600PWP") (at 72.390 67.310 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "b6a6161e-38b3-5f2c-b5e6-fa507db8490f") (property "Reference" "U680" (at 72.390 43.310 0) (effects (font (size 1.05 1.05)) ))(property "Value" "TPS26600PWPR" (at 72.390 41.310 0) (effects (font (size 1.05 1.05)) ))(property "Footprint" "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.66x2.46mm" (at 72.390 67.310 0) (effects (font (size 1.05 1.05)) (hide yes)))(pin "1" (uuid "f5d632a6-84f5-51ae-9b9f-f7958964e88f"))(pin "2" (uuid "7fee467c-b766-526d-ba7b-0acd0fe2c821"))(pin "3" (uuid "d83ee7bb-945b-5a4b-9c0f-4bfaa9cbb91d"))(pin "4" (uuid "26cb95b4-c301-5001-b285-e278e6a2f77d"))(pin "5" (uuid "21514d19-a770-5bf6-9885-123041be7a39"))(pin "6" (uuid "77e06724-20a3-5ae3-a807-ec501a7caf0d"))(pin "7" (uuid "e2d202a0-cb78-54fb-82c6-11642f0c46d8"))(pin "8" (uuid "4daae47f-a469-5cbe-b9e1-909110391dcc"))(pin "9" (uuid "21411b7f-5751-5291-8755-f1f51771205a"))(pin "10" (uuid "57634d51-2f5f-50b0-b640-3e091ce9bc08"))(pin "11" (uuid "2d49208e-1ba8-5735-b38e-4fc4441c9579"))(pin "12" (uuid "cbaedfbc-c0fc-500e-82b0-203e1ca71a6b"))(pin "13" (uuid "e901df09-9ee1-5323-a4d4-03768f4d4d16"))(pin "14" (uuid "890c40b3-c2df-5c1b-9ba0-5143e2e534cc"))(pin "15" (uuid "c94d2c27-8352-5c81-8793-9d3de1ff6b13"))(pin "16" (uuid "af63ab71-26b2-5cda-bea9-3afd1eba3468"))(pin "17" (uuid "4349fbe7-748c-5ea1-aaa1-e8c174d55097"))(instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-0000593d9285/7aae15a4-b6dc-5aff-8cc0-31797b876bd3" (reference "U680") (unit 1)))))
+(wire (pts (xy 59.690 54.610) (xy 50.800 54.610)) (stroke (width 0) (type default)) (uuid "e7ffa0fe-0c51-5652-8b76-09fec59ea3e2"))
+(global_label "VIN_RAW_12V" (shape passive) (at 50.800 54.610 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "7b33069b-77c4-5abb-ad50-614f9d442035"))
+(wire (pts (xy 59.690 62.230) (xy 50.800 62.230)) (stroke (width 0) (type default)) (uuid "a4ea1007-52c6-507b-b168-dfe8a6d59915"))
+(label "UV"  (at 50.800 62.230 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "62eac2b9-e54d-52eb-938f-469f73acc0fd"))
+(wire (pts (xy 59.690 69.850) (xy 50.800 69.850)) (stroke (width 0) (type default)) (uuid "d6255a49-f318-58a1-a7d5-836133ec9f89"))
+(label "OV"  (at 50.800 69.850 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "e9a98eb6-ef48-5fb3-a5dd-75c83a5af032"))
+(wire (pts (xy 59.690 77.470) (xy 50.800 77.470)) (stroke (width 0) (type default)) (uuid "3e20d715-f952-5f18-bc2f-1c21dc2e5250"))
+(label "EFUSE_RTN"  (at 50.800 77.470 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "74154575-7a15-5f7f-95e2-cc891fea12ea"))
+(no_connect (at 59.690 80.010) (uuid "e360b397-0b59-5107-8e41-3a70311f8216"))
+(wire (pts (xy 69.850 85.090) (xy 69.850 91.440)) (stroke (width 0) (type default)) (uuid "27ea0948-f048-59d4-b53c-3a829040256e"))
+(label "EFUSE_RTN"  (at 69.850 91.440 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "b58c82ed-0ff8-5997-927a-0713ea3ad75a"))
+(wire (pts (xy 74.930 85.090) (xy 74.930 91.440)) (stroke (width 0) (type default)) (uuid "9cfc9ed9-ae00-5f07-9233-b71943d7a065"))
+(global_label "GND" (shape passive) (at 74.930 91.440 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "481ea854-2408-549e-976b-dbd3ae8b04e0"))
+(no_connect (at 85.090 69.850) (uuid "1c675e7d-96a0-5d72-84ed-96c41e5b00dc"))
+(wire (pts (xy 85.090 77.470) (xy 92.710 77.470)) (stroke (width 0) (type default)) (uuid "52c66abd-d3c8-5d04-8321-b3f233cda332"))
+(label "ILIM"  (at 92.710 77.470 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "b9a8b216-1d80-55f5-955c-0bb7a0f65f6b"))
+(wire (pts (xy 85.090 80.010) (xy 92.710 80.010)) (stroke (width 0) (type default)) (uuid "cb7490c8-9b19-5049-903e-c23e3652a532"))
+(label "DVDT"  (at 92.710 80.010 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "ced2deb9-ae94-5e7f-bf8d-95a4f98e8f09"))
+(no_connect (at 85.090 67.310) (uuid "5f8100c2-bdee-50b3-8100-37fb1fb7b7fd"))
+(wire (pts (xy 85.090 54.610) (xy 92.710 54.610)) (stroke (width 0) (type default)) (uuid "6f9cc73c-3d94-5b82-87dd-c320d6222bf3"))
+(global_label "EFUSE_OUT_12V" (shape passive) (at 92.710 54.610 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "36830973-ae95-538d-8315-8aba4bef3d07"))
+(symbol (lib_id "RF111_INLET:R") (at 45.720 127.000 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "5da86a64-0c29-5fa2-a904-265a0f4332a4") (property "Reference" "R780" (at 45.720 122.000 0) (effects (font (size 1.05 1.05)) ))(property "Value" "64.9k 0.1%" (at 45.720 120.000 0) (effects (font (size 1.05 1.05)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 45.720 127.000 0) (effects (font (size 1.05 1.05)) (hide yes)))(pin "1" (uuid "d505bc54-1668-5a8a-965e-63ff1be18747"))(pin "2" (uuid "772786a6-70e4-5e58-a5ba-c60f19d83efb"))(instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-0000593d9285/7aae15a4-b6dc-5aff-8cc0-31797b876bd3" (reference "R780") (unit 1)))))
+(wire (pts (xy 45.720 123.190) (xy 45.720 118.110)) (stroke (width 0) (type default)) (uuid "61abcb3c-c63f-5da0-9692-fed4df04d21c"))
+(global_label "VIN_RAW_12V" (shape passive) (at 45.720 118.110 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "53160db4-838d-5f05-8f46-e4a902fbde81"))
+(wire (pts (xy 45.720 130.810) (xy 45.720 135.890)) (stroke (width 0) (type default)) (uuid "cb23f70a-6e49-5a50-9f72-889b7be8cbdb"))
+(label "UV"  (at 45.720 135.890 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "f2b7d426-6ad4-59d9-911d-b847c670a3a2"))
+(symbol (lib_id "RF111_INLET:R") (at 81.280 127.000 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "7fafa7b8-fd78-51f0-82ce-91c6a488fb5c") (property "Reference" "R781" (at 81.280 122.000 0) (effects (font (size 1.05 1.05)) ))(property "Value" "10.0k 0.1%" (at 81.280 120.000 0) (effects (font (size 1.05 1.05)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 81.280 127.000 0) (effects (font (size 1.05 1.05)) (hide yes)))(pin "1" (uuid "25d72d1b-2dc7-50b3-9f18-e38e414f97e9"))(pin "2" (uuid "71be614a-9c7b-548c-ae6a-40f03ae49cf1"))(instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-0000593d9285/7aae15a4-b6dc-5aff-8cc0-31797b876bd3" (reference "R781") (unit 1)))))
+(wire (pts (xy 81.280 123.190) (xy 81.280 118.110)) (stroke (width 0) (type default)) (uuid "7a337d22-8042-5692-b91f-bfab0508e911"))
+(label "UV"  (at 81.280 118.110 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "e07d3d44-22c0-5c74-8eab-0455a4c78861"))
+(wire (pts (xy 81.280 130.810) (xy 81.280 135.890)) (stroke (width 0) (type default)) (uuid "fa260226-8fa2-5d94-9df8-38ad9bfed077"))
+(label "EFUSE_RTN"  (at 81.280 135.890 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "a10c0254-3927-5cb8-90f7-512de5f1a4dc"))
+(symbol (lib_id "RF111_INLET:R") (at 116.840 127.000 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "e81ddc92-0805-5c1c-acca-80ad0365fea6") (property "Reference" "R782" (at 116.840 122.000 0) (effects (font (size 1.05 1.05)) ))(property "Value" "121k 0.1%" (at 116.840 120.000 0) (effects (font (size 1.05 1.05)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 116.840 127.000 0) (effects (font (size 1.05 1.05)) (hide yes)))(pin "1" (uuid "b56a87b9-fe6d-5009-b8b8-9eb87ad9481f"))(pin "2" (uuid "cfdf69be-b01b-5ed7-be15-4b42a3ef6e61"))(instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-0000593d9285/7aae15a4-b6dc-5aff-8cc0-31797b876bd3" (reference "R782") (unit 1)))))
+(wire (pts (xy 116.840 123.190) (xy 116.840 118.110)) (stroke (width 0) (type default)) (uuid "078df2bb-27cb-5cc7-9f62-0eedb786ba2f"))
+(global_label "VIN_RAW_12V" (shape passive) (at 116.840 118.110 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "0daee7df-7b55-56a5-a2d7-0929b1d708f6"))
+(wire (pts (xy 116.840 130.810) (xy 116.840 135.890)) (stroke (width 0) (type default)) (uuid "db916beb-59c5-5667-ae40-8af2cf51bfa0"))
+(label "OV"  (at 116.840 135.890 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "00d32cdc-6dcd-5f27-921b-17e03d29e42d"))
+(symbol (lib_id "RF111_INLET:R") (at 152.400 127.000 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "277f9fb4-60f7-54f6-8dd5-273f926a22f9") (property "Reference" "R783" (at 152.400 122.000 0) (effects (font (size 1.05 1.05)) ))(property "Value" "10.0k 0.1%" (at 152.400 120.000 0) (effects (font (size 1.05 1.05)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 152.400 127.000 0) (effects (font (size 1.05 1.05)) (hide yes)))(pin "1" (uuid "5c4ef7dd-405c-51f2-afbf-0ed5762f8b3d"))(pin "2" (uuid "043aa61f-15bd-5803-a0f9-561f91911ce4"))(instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-0000593d9285/7aae15a4-b6dc-5aff-8cc0-31797b876bd3" (reference "R783") (unit 1)))))
+(wire (pts (xy 152.400 123.190) (xy 152.400 118.110)) (stroke (width 0) (type default)) (uuid "2375758f-46f8-5cde-95ba-06d9f226a533"))
+(label "OV"  (at 152.400 118.110 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "290f828a-2b8c-5282-af35-4d5456801ea7"))
+(wire (pts (xy 152.400 130.810) (xy 152.400 135.890)) (stroke (width 0) (type default)) (uuid "e679f49f-b9f9-50a6-b76b-af0133d4dc52"))
+(label "EFUSE_RTN"  (at 152.400 135.890 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "4f75996f-8e90-5f80-990a-a0d1a100922c"))
+(symbol (lib_id "RF111_INLET:R") (at 187.960 127.000 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "0e652444-89ad-5c36-b6e5-ba534c139e09") (property "Reference" "R784" (at 187.960 122.000 0) (effects (font (size 1.05 1.05)) ))(property "Value" "5.49k 0.1%" (at 187.960 120.000 0) (effects (font (size 1.05 1.05)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 187.960 127.000 0) (effects (font (size 1.05 1.05)) (hide yes)))(pin "1" (uuid "fd50bfe4-3326-53af-943a-2d3813efa88d"))(pin "2" (uuid "5a4eb8f4-a6e6-548e-bb4f-b877a48ff204"))(instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-0000593d9285/7aae15a4-b6dc-5aff-8cc0-31797b876bd3" (reference "R784") (unit 1)))))
+(wire (pts (xy 187.960 123.190) (xy 187.960 118.110)) (stroke (width 0) (type default)) (uuid "96501074-ddff-5f7b-8548-d2d4a47997d1"))
+(label "ILIM"  (at 187.960 118.110 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "d50ab6f1-2d68-5e11-889b-4265f81ed2f3"))
+(wire (pts (xy 187.960 130.810) (xy 187.960 135.890)) (stroke (width 0) (type default)) (uuid "379309f3-b091-5b14-9de7-5025ae3f59a1"))
+(label "EFUSE_RTN"  (at 187.960 135.890 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "93c1dabd-2f3e-5062-bc95-8bf28c8ca5de"))
+(symbol (lib_id "RF111_INLET:R") (at 45.720 161.290 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "001905c2-5b5b-57f0-ad15-b539544d2c18") (property "Reference" "R785" (at 45.720 156.290 0) (effects (font (size 1.05 1.05)) ))(property "Value" "1.2R pulse rated" (at 45.720 154.290 0) (effects (font (size 1.05 1.05)) ))(property "Footprint" "Resistor_SMD:R_1210_3225Metric" (at 45.720 161.290 0) (effects (font (size 1.05 1.05)) (hide yes)))(pin "1" (uuid "61b939cc-c5fc-5015-ae5d-0802165ac2f5"))(pin "2" (uuid "0bae1732-6f28-5847-a963-90fc95d649eb"))(instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-0000593d9285/7aae15a4-b6dc-5aff-8cc0-31797b876bd3" (reference "R785") (unit 1)))))
+(wire (pts (xy 45.720 157.480) (xy 45.720 152.400)) (stroke (width 0) (type default)) (uuid "896b60fd-650b-5d91-8412-91fa681a0041"))
+(global_label "VIN_RAW_12V" (shape passive) (at 45.720 152.400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "b4a43847-334d-58e3-9659-fab66018e6ca"))
+(wire (pts (xy 45.720 165.100) (xy 45.720 170.180)) (stroke (width 0) (type default)) (uuid "c0fa4186-276d-59e3-9359-caa17aa80fa9"))
+(label "DAMP"  (at 45.720 170.180 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "e52b2088-7a72-5ccf-bc4a-3b477cd8d84d"))
+(symbol (lib_id "RF111_INLET:C") (at 81.280 161.290 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "0b825b63-301f-5288-9efb-5860a4464430") (property "Reference" "C680" (at 81.280 156.290 0) (effects (font (size 1.05 1.05)) ))(property "Value" "100nF 100V" (at 81.280 154.290 0) (effects (font (size 1.05 1.05)) ))(property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 81.280 161.290 0) (effects (font (size 1.05 1.05)) (hide yes)))(pin "1" (uuid "66e2bb10-ba94-5e7e-a651-ba8321f94157"))(pin "2" (uuid "a5ccf036-d6cd-59ef-b0ac-f871a75ad8b6"))(instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-0000593d9285/7aae15a4-b6dc-5aff-8cc0-31797b876bd3" (reference "C680") (unit 1)))))
+(wire (pts (xy 81.280 157.480) (xy 81.280 152.400)) (stroke (width 0) (type default)) (uuid "a65d81e6-8020-5409-b339-b220a69bdf69"))
+(global_label "VIN_RAW_12V" (shape passive) (at 81.280 152.400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "2572bf7b-0534-5d84-b9ae-2616093c4461"))
+(wire (pts (xy 81.280 165.100) (xy 81.280 170.180)) (stroke (width 0) (type default)) (uuid "ee32b5e9-ac41-50f7-8d03-89abe0c651f4"))
+(global_label "GND" (shape passive) (at 81.280 170.180 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "5a977787-fa0a-5688-984b-a530dda87de0"))
+(symbol (lib_id "RF111_INLET:C") (at 116.840 161.290 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "ed5f80ee-09b6-53ed-96e8-cd613c000bd4") (property "Reference" "C681" (at 116.840 156.290 0) (effects (font (size 1.05 1.05)) ))(property "Value" "2.2uF 100V X7R" (at 116.840 154.290 0) (effects (font (size 1.05 1.05)) ))(property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 116.840 161.290 0) (effects (font (size 1.05 1.05)) (hide yes)))(pin "1" (uuid "e094148c-74c3-550b-bb38-74fe5e076937"))(pin "2" (uuid "cee0b96a-c5e8-52da-ae4c-0e825e331e15"))(instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-0000593d9285/7aae15a4-b6dc-5aff-8cc0-31797b876bd3" (reference "C681") (unit 1)))))
+(wire (pts (xy 116.840 157.480) (xy 116.840 152.400)) (stroke (width 0) (type default)) (uuid "1de5d1b8-d5f9-5134-beb4-e85d26cb7865"))
+(label "DAMP"  (at 116.840 152.400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "7642fd92-2e96-5af8-b5a3-eb0fddbfdf44"))
+(wire (pts (xy 116.840 165.100) (xy 116.840 170.180)) (stroke (width 0) (type default)) (uuid "139ead76-144c-5073-aa18-f9854c0f705b"))
+(global_label "GND" (shape passive) (at 116.840 170.180 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "742c7f09-5a26-5073-86c5-56cae2974045"))
+(symbol (lib_id "RF111_INLET:C") (at 152.400 161.290 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "0eaa9a78-152b-5ead-a904-e71c41e45440") (property "Reference" "C682" (at 152.400 156.290 0) (effects (font (size 1.05 1.05)) ))(property "Value" "22nF 50V" (at 152.400 154.290 0) (effects (font (size 1.05 1.05)) ))(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 152.400 161.290 0) (effects (font (size 1.05 1.05)) (hide yes)))(pin "1" (uuid "a1969226-08f0-5759-9e36-6a7d8610993d"))(pin "2" (uuid "7d60fc19-5ef7-5473-979b-3f59f4963f79"))(instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-0000593d9285/7aae15a4-b6dc-5aff-8cc0-31797b876bd3" (reference "C682") (unit 1)))))
+(wire (pts (xy 152.400 157.480) (xy 152.400 152.400)) (stroke (width 0) (type default)) (uuid "d161b18d-d14f-5e6d-a997-7c9586bff72d"))
+(label "DVDT"  (at 152.400 152.400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "52f47ddb-61e8-55db-9191-be0397c88f3d"))
+(wire (pts (xy 152.400 165.100) (xy 152.400 170.180)) (stroke (width 0) (type default)) (uuid "db19991b-d47e-500f-acd3-1a2d799ca2c9"))
+(label "EFUSE_RTN"  (at 152.400 170.180 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "695a3955-86e7-5f56-b47e-8c3ec2fd92ce"))
+(symbol (lib_id "RF111_INLET:C_Polarized") (at 187.960 161.290 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "19066d54-ed37-5fe8-b145-a9a5dd0b3e7f") (property "Reference" "C683" (at 187.960 156.290 0) (effects (font (size 1.05 1.05)) ))(property "Value" "EEH-ZK1V101XP" (at 187.960 154.290 0) (effects (font (size 1.05 1.05)) ))(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7" (at 187.960 161.290 0) (effects (font (size 1.05 1.05)) (hide yes)))(pin "1" (uuid "1517bc4b-57bf-5b37-b017-c7e050298a60"))(pin "2" (uuid "0284d16e-d06f-5e9f-bac3-f7c2e89e30d0"))(instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-0000593d9285/7aae15a4-b6dc-5aff-8cc0-31797b876bd3" (reference "C683") (unit 1)))))
+(wire (pts (xy 187.960 157.480) (xy 187.960 152.400)) (stroke (width 0) (type default)) (uuid "326280cf-8b45-54ee-9351-5a46cc206e3b"))
+(hierarchical_label "PROTECTED_12V" (shape input) (at 187.960 152.400 0) (effects (font (size 1 1)) (justify left)) (uuid "dd34b85f-427f-5a3d-aa72-f8fb062a42d9"))
+(wire (pts (xy 187.960 165.100) (xy 187.960 170.180)) (stroke (width 0) (type default)) (uuid "32264a88-623d-5b28-b5a0-c878c5e0fb19"))
+(global_label "GND" (shape passive) (at 187.960 170.180 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "f4d345da-e3eb-5316-8bf9-3ce07b8bb184"))
+(symbol (lib_id "RF111_INLET:PWR_FLAG") (at 210.820 55.880 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "b24cf143-2972-5fba-9a51-290aebd86eb9") (property "Reference" "#FLG0680" (at 210.820 50.880 0) (effects (font (size 1.05 1.05)) (hide yes)))(property "Value" "PWR_FLAG" (at 210.820 48.880 0) (effects (font (size 1.05 1.05)) ))(property "Footprint" "" (at 210.820 55.880 0) (effects (font (size 1.05 1.05)) (hide yes)))(pin "1" (uuid "6c596210-f4a0-568c-a412-8a07672f3058"))(instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-0000593d9285/7aae15a4-b6dc-5aff-8cc0-31797b876bd3" (reference "#FLG0680") (unit 1)))))
+(wire (pts (xy 210.820 55.880) (xy 210.820 59.690)) (stroke (width 0) (type default)) (uuid "9e6e5d6e-cc71-5a3c-955d-d930149a98ec"))
+(global_label "VIN_RAW_12V" (shape passive) (at 210.820 59.690 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "1c521e90-63cc-5c72-9680-0c0d9fcb0e8f"))
+)

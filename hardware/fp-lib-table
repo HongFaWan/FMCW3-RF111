@@ -11,4 +11,11 @@
   (lib (name "ECO_PWR") (type "KiCad") (uri "${KIPRJMOD}/libraries/footprints/ECO_PWR.pretty") (options "") (descr "Project-local RF109 library; placed board remains authoritative"))
   (lib (name "ECO_GUARD") (type "KiCad") (uri "${KIPRJMOD}/libraries/footprints/ECO_GUARD.pretty") (options "") (descr "Project-local RF109 library; placed board remains authoritative"))
   (lib (name "ECO_FACTORY") (type "KiCad") (uri "${KIPRJMOD}/libraries/footprints/ECO_FACTORY.pretty") (options "") (descr "Project-local RF109 library; placed board remains authoritative"))
+  (lib (name "ECO_POSCAP")(type "KiCad")(uri "${KIPRJMOD}/libraries/ECO_POSCAP.pretty")(options "")(descr "Panasonic D2 land pattern"))
+
+(lib (name "RF111_LO") (type "KiCad") (uri "${KIPRJMOD}/libraries/RF111_LO/RF111_LO.pretty") (options "") (descr ""))
+  (lib (name "Capacitor_SMD") (type "KiCad") (uri "${KIPRJMOD}/libraries/kicad10_standard/Capacitor_SMD.pretty") (options "") (descr "Project-local KiCad 10 standard library"))
+  (lib (name "Resistor_SMD") (type "KiCad") (uri "${KIPRJMOD}/libraries/kicad10_standard/Resistor_SMD.pretty") (options "") (descr "Project-local KiCad 10 standard library"))
+  (lib (name "Package_TO_SOT_SMD") (type "KiCad") (uri "${KIPRJMOD}/libraries/kicad10_standard/Package_TO_SOT_SMD.pretty") (options "") (descr "Project-local KiCad 10 standard library"))
+  (lib (name "Package_SO") (type "KiCad") (uri "${KIPRJMOD}/libraries/kicad10_standard/Package_SO.pretty") (options "") (descr "Project-local KiCad 10 standard library"))
 )

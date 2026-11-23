@@ -18,4 +18,15 @@
   (lib (name "ECO_CLK") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/ECO_CLK.kicad_sym") (options "") (descr "Project-local RF109 library; placed board remains authoritative"))
   (lib (name "ECO_PWR") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/ECO_PWR.kicad_sym") (options "") (descr "Project-local RF109 library; placed board remains authoritative"))
   (lib (name "ECO_GUARD") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/ECO_GUARD.kicad_sym") (options "") (descr "Project-local RF109 library; placed board remains authoritative"))
+  (lib (name "ECO_POSCAP")(type "KiCad")(uri "${KIPRJMOD}/libraries/ECO_POSCAP.kicad_sym")(options "")(descr "Panasonic polarized capacitors"))
+
+(lib (name "RF111_LO") (type "KiCad") (uri "${KIPRJMOD}/libraries/RF111_LO/RF111_LO.kicad_sym") (options "") (descr ""))
+
+ (lib (name "RF111_PWR")(type "KiCad")(uri "${KIPRJMOD}/libraries/symbols/RF111_PWR.kicad_sym")(options "")(descr "RF5V circuit symbols"))
+
+(lib (name "RF111_GUARD147") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/RF111_GUARD147.kicad_sym")(options "")(descr "RF and input rail interlock"))
+
+(lib (name "RF111_INLET") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/RF111_INLET.kicad_sym") (options "") (descr "Input protection"))
+
+(lib (name "RF111_USB_SENSE") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/RF111_USB_SENSE.kicad_sym")(options "")(descr ""))
 )

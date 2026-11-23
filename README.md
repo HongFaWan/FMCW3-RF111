@@ -1,45 +1,24 @@
-# FMCW3 RF111 硬件与备料
+# FMCW3 RF111 · 0.250 mm 钻孔候选
 
-当前 RF111 工程修订，整理日期 2026-11-18。仍为工程审查资料，未制造放行或完成实板功能验收。
+此分支记录 2026-11-23 的独立工程候选，源自 RF111 主分支。首批目标为 5 片六层板、其中 2 片双面装配。工厂回签和功能验证通过后再合并。当前 Gerber 和装配表仅供审图询价。
 
-## 文件入口
+| 资料 | 入口 |
+| --- | --- |
+| KiCad 10 项目、原理图、PCB 和本地库 | [KiCad 项目](hardware/fmcw3.kicad_pro) |
+| 各层级原理图 | [原理图 PDF](manufacturing/RF111_candidate_schematics_REVIEW_ONLY.pdf) |
+| 6 层铜、双面加工数据和钻孔 | [Gerber 与 Excellon](manufacturing/gerbers) |
+| 装配坐标和关键工艺 | [CPL](manufacturing/RF111_candidate_CPL_mm_REVIEW_ONLY.csv) · [填孔和开孔](manufacturing/RF111_candidate_hole_process_REVIEW_ONLY.csv) · [阻抗标注](manufacturing/RF111_candidate_impedance_locations_REVIEW_ONLY.pdf) · [工艺说明](manufacturing/制造与装配说明.txt) |
+| 204 组候选物料与可追溯来源 | [BOM](procurement/BOM_RF111_candidate_204groups_REVIEW_ONLY.csv) · [采购来源及待核状态](procurement/RF111_candidate_purchase_sources_REVIEW_ONLY.csv) |
+| 上游归属、许可和文件校验 | [来源](SOURCE_CREDITS.txt) · [GPL v3](LICENSE) · [SHA-256](SHA256SUMS) |
 
-- [KiCad 项目](hardware/fmcw3.kicad_pro)：KiCad 10.0.8，11 个独立原理图、12 个层级实例、PCB 及必要本地库。
-- [原理图 PDF](manufacturing/RF111_schematics_REVIEW_ONLY.pdf)：12 页原理图。
-- [完整 BOM](procurement/BOM_RF111_106groups_REVIEW_ONLY.csv)：106 组、433 个实装位置/板、两板净 866 件，工厂最终订货量留空。
-- [106 组商家与采购来源](procurement/RF111_106groups_purchase_sources_20261118.csv)：准确型号、商家、商品链接、带时间的库存/价格快照和包装信息。
-- [采购使用说明](procurement/采购使用说明.txt)、[淘宝未确认备选](procurement/unconfirmed_taobao_alternate.csv)。
-- [制造与装配说明](manufacturing/制造与装配说明.txt)、[原生 CPL](manufacturing/RF111_native_CPL_mm_REVIEW_ONLY.csv)、Gerber/钻孔及指定孔工艺表。
-- [来源与修改说明](SOURCE_CREDITS.txt)、[文件校验值](SHA256SUMS)、[后续同步约定](AGENTS.md)。
+## 复现
 
-## RF111 变更
+克隆后在 KiCad 10.0.8 打开硬件项目。库表使用项目相对路径。封装和符号可在项目内解析，部分标准封装的 3D 显示使用 KiCad 自带模型。PCB 保留送厂审图时的原始字节。Gerber、钻孔、BOM、CPL 和工艺表须取自同一候选版本。
 
-三路 LMR51420YF 降压电源的原 33µH 电感调整为：L5＝TDK SPM6530T-1R0M120（1µH，C87572）、L6＝SPM6530T-3R3M（3.3µH，C76856）、L7＝SPM6530T-4R7M（4.7µH，C76857）。三处使用按该系列厂家建议建立的两矩形焊盘本地封装，KiCad 角度 270°；L6 中心 Y 增加 0.14867mm。必须按当前实例和 CPL 装配，不能在原六焊盘上零度直接替换。
+这版包含独立本振、检波、PA 联锁、输入 eFuse 和 RF5V 电源回路。最小金属化 CAD 钻孔为 0.250 mm。每板 578 个装配位置，顶面 335、底面 243，两板净用量 1156 件。BOM 中 49 组仍待确认原厂完整型号，采购来源有单独状态。固件和外置模块另行管理。
 
-原理图、PCB、BOM/CPL、对应顶层铜/阻焊/锡膏/丝印和库同时更新。电气连网、其他走线/过孔/铺铜、其余九层及两份钻孔程序保持一致。此前 RF110 的 ERA-2ARB3162X 三只精密电阻和 U40 的 C190862 供料码保留。输出电容、反馈分压和射频链参数本次不改；22µF 增容仍为未采用提案。
+## 合并前检查
 
-## 打开与编辑
-
-克隆后打开 hardware/fmcw3.kicad_pro，使用项目内 fp-lib-table 和 sym-lib-table，库路径为项目相对路径。91 个硬件文件包含实际引用的符号/封装；已有 PCB 实例是装配几何权威，不可批量从库更新后直接制造。
-
-个别内部封装库 ID 保留制作时的 PROPOSAL_ONLY 字符，以维持原理图/PCB/库和 BOM 的精确绑定；它不代表当前选择状态，当前工程修订以本说明与受控 BOM 为准。
-
-不附可选 STEP/WRL 展示模型或厂商仿真模型。修改后须重新核对原理图、PCB、BOM/CPL、Gerber 和采购表的一致性。
-
-## 数量与来源
-
-计划 5 块 PCB：2 块双面组装、3 块裸板。106 组均有可售目录来源，93 组来自嘉立创/立创国内渠道，13 组需要得捷、贸泽或 RFMW 正规分销补充；尚不能只依靠淘宝和嘉立创买齐。各行快照保留原核查时间，新电感核查跨 2026-11-17/18，其他沿用 11-17 快照，均未占用库存或分配批次。
-
-三只新电感每板各 1、两板各 2。L5/L6 网页的“1+”是价格阶梯，不能当作工厂 MOQ；L7 立创零售页显示 MOQ5。最终备料、损耗/最小上机量、包装和费用均需工厂重新确认。1692/152/193 等旧参考数量不属于本次最终订货量。
-
-## 使用与放行边界
-
-主板为一路发射、两路接收，HMC430/Artix-7/LTC2292 架构；完整四极化外置切换模块和天线尚未集成，不在这 106 组内。名义软件范围为 5.0–5.5GHz、至少 200µs 回扫保护，实际频段、功率、泄漏、接收饱和、温升和 SAR 成像须实测。
-
-本仓库仅硬件、制造及备料资料，不含 RTL088、FW100、FPGA 生成文件或完整主机软件，不能直接使用上游旧固件替代适配。原生检查为零活动错误、零未连线，仍保留既有警告和忽略类别；这不等于工厂可制造或整板功能通过。
-
-三路电源仍需验证真实启动、负载阶跃/卸载、低温有效容量、热态磁特性和纹波对 RF/ADC 的影响。新 TDK 电感须采用厂家允许的免清洗流程。工厂还需确认最终叠层/阻抗、116 处指定填孔盖铜、28 处开孔、CON2 槽公差/试插、SMA 双面焊接、BGA/QFN/WSON 钢网、回流/MSL 和来料包装。
-
-## 归档范围
-
-仅保留当前电路、制造/采购复现资料、必要说明和许可。专项报告、数据手册、原厂模型、仿真数据库、波形、脚本/日志及账号/客服订单资料均仅存本地。当前全部文件为 REVIEW_ONLY，不可直接付款排产。
+- 取得实际生产叠层和阻抗、钻孔公差及最低孔铜、填孔盖铜、三处 SMA 试插、钢网和检验回签。
+- 用最终叠层核对 RF 路径和 PA 泄漏，验证所有温度和换档工况下的本振上下限余量。
+- 确认 U14/U22 散热、供电和掉电联锁、热插拔、USB 复位及采集恢复，并关闭影响首板的装配警告和关键采购缺项。
