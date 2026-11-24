@@ -4,7 +4,7 @@
 (rule "manufacturer copper spacing"
  (constraint clearance (min 0.1016mm)))
 (rule "manufacturer drilled hole"
- (constraint hole_size (min 0.2mm)))
+ (constraint hole_size (min 0.25mm)))
 
 (rule "L3 VCC2 track to copper pour"
  (layer "In2.Cu")
