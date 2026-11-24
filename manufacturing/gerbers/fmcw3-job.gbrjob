@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "10.0.8"
     },
-    "CreationDate": "2026-11-23T16:24:54+08:00"
+    "CreationDate": "2026-11-24T19:19:12+08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -15,11 +15,11 @@
     },
     "Size": {
       "X": 104.1601,
-      "Y": 65.819
+      "Y": 70.09
     },
     "LayerNumber": 6,
-    "BoardThickness": 1.5266,
-    "Finish": "None"
+    "BoardThickness": 1.647,
+    "Finish": "ENIG"
   },
   "DesignRules": [
     {
@@ -43,67 +43,67 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "fmcw3-L1_SIG.gtl",
+      "Path": "fmcw3-L1_SIG.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "fmcw3-L2_GND.g1",
+      "Path": "fmcw3-L2_GND.gbr",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "fmcw3-L3_PWR.g2",
+      "Path": "fmcw3-L3_PWR.gbr",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "fmcw3-L4_PWR_SIG.g3",
+      "Path": "fmcw3-L4_PWR_SIG.gbr",
       "FileFunction": "Copper,L4,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "fmcw3-L5_GND.g4",
+      "Path": "fmcw3-L5_GND.gbr",
       "FileFunction": "Copper,L5,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "fmcw3-L6_SIG.gbl",
+      "Path": "fmcw3-L6_SIG.gbr",
       "FileFunction": "Copper,L6,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "fmcw3-F_Paste.gtp",
+      "Path": "fmcw3-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "fmcw3-B_Paste.gbp",
+      "Path": "fmcw3-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "fmcw3-F_Silkscreen.gto",
+      "Path": "fmcw3-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "fmcw3-B_Silkscreen.gbo",
+      "Path": "fmcw3-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "fmcw3-F_Mask.gts",
+      "Path": "fmcw3-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "fmcw3-B_Mask.gbs",
+      "Path": "fmcw3-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "fmcw3-Edge_Cuts.gm1",
+      "Path": "fmcw3-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
@@ -119,77 +119,77 @@
     },
     {
       "Type": "SolderMask",
-      "Thickness": 0.01,
+      "Thickness": 0.012,
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.0432,
+      "Thickness": 0.035,
       "Name": "L1_SIG"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.1107,
-      "Material": "FR4",
+      "Thickness": 0.125,
+      "Material": "S1000-2M 2116",
       "Name": "L1_SIG/L2_GND",
       "Notes": "Type: dielectric layer 1 (from L1_SIG to L2_GND)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.0175,
+      "Thickness": 0.0152,
       "Name": "L2_GND"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.1016,
-      "Material": "FR4",
+      "Thickness": 0.5696,
+      "Material": "S1000-2M core (review nominal)",
       "Name": "L2_GND/L3_PWR",
       "Notes": "Type: dielectric layer 2 (from L2_GND to L3_PWR)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.0175,
+      "Thickness": 0.0152,
       "Name": "L3_PWR"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.9256,
-      "Material": "FR4",
+      "Thickness": 0.103,
+      "Material": "S1000-2M 2313",
       "Name": "L3_PWR/L4_PWR_SIG",
       "Notes": "Type: dielectric layer 3 (from L3_PWR to L4_PWR_SIG)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.0175,
+      "Thickness": 0.0152,
       "Name": "L4_PWR_SIG"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.1016,
-      "Material": "FR4",
+      "Thickness": 0.5696,
+      "Material": "S1000-2M core (review nominal)",
       "Name": "L4_PWR_SIG/L5_GND",
       "Notes": "Type: dielectric layer 4 (from L4_PWR_SIG to L5_GND)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.0175,
+      "Thickness": 0.0152,
       "Name": "L5_GND"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.1107,
-      "Material": "FR4",
+      "Thickness": 0.125,
+      "Material": "S1000-2M 2116",
       "Name": "L5_GND/L6_SIG",
       "Notes": "Type: dielectric layer 5 (from L5_GND to L6_SIG)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.0432,
+      "Thickness": 0.035,
       "Name": "L6_SIG"
     },
     {
       "Type": "SolderMask",
-      "Thickness": 0.01,
+      "Thickness": 0.012,
       "Name": "Bottom Solder Mask"
     },
     {

@@ -9594,16 +9594,7 @@
 		)
 		(uuid "05867bfe-60df-45a1-a91d-bb18337a4bc7")
 	)
-(label "PIN9"
-		(at 215.9 33.02 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "06337522-aeb7-434b-a595-2b0a45a25d19")
-	)
+(global_label "LO_DSA_LE" (shape passive) (at 215.9 33.02 180) (effects (font (size .85 .85)) (justify left)) (uuid "252c2086-6ab1-5087-b02d-4ae079706bd4") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 215.9 33.02 0) (effects (font (size 1 1)) (hide yes))))
 (label "FT_TDO"
 		(at 137.16 245.11 180)
 		(effects
@@ -10106,16 +10097,7 @@
 		)
 		(uuid "769c341a-8f3c-4ec1-b2a0-b000ad2afd34")
 	)
-(label "PIN9"
-		(at 41.91 236.22 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "76a13efe-7251-4912-8f74-e827e0c8d5c9")
-	)
+(global_label "LO_DSA_LE" (shape passive) (at 41.91 236.22 180) (effects (font (size .85 .85)) (justify left)) (uuid "efbd2303-471c-5176-86af-3d0aa7ed8215") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 41.91 236.22 0) (effects (font (size 1 1)) (hide yes))))
 (label "D11"
 		(at 173.99 204.47 0)
 		(effects

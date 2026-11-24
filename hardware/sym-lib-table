@@ -29,4 +29,6 @@
 (lib (name "RF111_INLET") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/RF111_INLET.kicad_sym") (options "") (descr "Input protection"))
 
 (lib (name "RF111_USB_SENSE") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/RF111_USB_SENSE.kicad_sym")(options "")(descr ""))
+
+(lib (name "RF111_UV") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/RF111_UV.kicad_sym") (options "") (descr "Tune and IO undervoltage engineering variant"))
 )

@@ -6889,7 +6889,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "102k"
 			(at 119.38 62.23 90)
 			(effects
 				(font
@@ -6928,6 +6928,7 @@
 		(pin "2"
 			(uuid "19a2cd5a-c03f-4f3d-9d25-d504ee6fbf74")
 		)
+		(property "Manufacturer Part Number" "RT0402BRD07102KL" (at 0 0 0) (effects (font (size 0.8 0.8)) (hide yes)))
 		(instances
 			(project "fmcw3"
 				(path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-0000593d9285"
@@ -6954,7 +6955,7 @@
 				)
 			)
 		)
-		(property "Value" "12k"
+		(property "Value" "12.1k"
 			(at 119.38 74.93 90)
 			(effects
 				(font
@@ -6993,6 +6994,7 @@
 		(pin "2"
 			(uuid "d531c6d9-de25-401f-b444-1f377943c7c0")
 		)
+		(property "Manufacturer Part Number" "ERA-2ARB1212X" (at 0 0 0) (effects (font (size 0.8 0.8)) (hide yes)))
 		(instances
 			(project "fmcw3"
 				(path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-0000593d9285"
@@ -14006,7 +14008,7 @@
 				)
 			)
 		)
-		(property "Value" "7.15k"
+		(property "Value" "4.70k"
 			(at 195.58 173.99 0)
 			(effects
 				(font
@@ -14039,6 +14041,8 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "ERA-3ARB472V" (at 190.5 172.72 0) (effects (font (size 0.8 0.8)) (hide yes)))
+		(property "Tolerance and TCR" "0.1%, 10 ppm/K" (at 190.5 172.72 0) (effects (font (size 0.8 0.8)) (hide yes)))
 		(pin "1"
 			(uuid "369c499a-d31f-4135-90d7-f722863f857c")
 		)
@@ -14071,7 +14075,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "649"
 			(at 195.58 187.96 0)
 			(effects
 				(font
@@ -14104,6 +14108,8 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "RG1608N-6490-B-T5" (at 190.5 186.69 0) (effects (font (size 0.8 0.8)) (hide yes)))
+		(property "Tolerance and TCR" "0.1%, 10 ppm/K" (at 190.5 186.69 0) (effects (font (size 0.8 0.8)) (hide yes)))
 		(pin "1"
 			(uuid "6d8d3b93-e492-4de8-817e-d9a752c1d59d")
 		)
@@ -14868,4 +14874,13 @@
 (sheet (at 116.84 254) (size 50.8 20.32) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (stroke (width 0) (type solid)) (fill (color 0 0 0 0)) (uuid "7aae15a4-b6dc-5aff-8cc0-31797b876bd3") (property "Sheetname" "Input eFuse" (at 140.970 251.460 0) (effects (font (size 1.05 1.05)) ))(property "Sheetfile" "input_efuse.kicad_sch" (at 142.240 276.860 0) (effects (font (size 1.05 1.05)) ))(pin "PROTECTED_12V" input (at 116.84 261.62 180) (uuid "239a2738-621b-559d-ac9c-304fc0227ea2") (effects (font (size 1 1)) (justify left))) (instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-0000593d9285" (page "17")))))
 (wire (pts (xy 116.840 261.620) (xy 106.680 261.620)) (stroke (width 0) (type default)) (uuid "7cbcef14-4aa1-5c88-957c-ed842904132b"))
 (label "12V"  (at 106.680 261.620 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "06ecd17f-2a9e-5339-a9ed-0597efe7a77a"))
+
+(global_label "TUNE_10V" (shape passive) (at 190.5 168.91 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid "4fdf27e8-8c07-51dc-a899-395cd13680f3"))
+
+(sheet (at 285.75 251.46) (size 56.00 15.24)
+ (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+ (stroke (width 0) (type solid)) (fill (color 0 0 0 0)) (uuid "7bcc65dd-874f-4ab3-850a-c949908f0220")
+ (property "Sheetname" "Tune and IO protection" (at 285.75 250.19 0) (effects (font (size 1.27 1.27)) (justify left bottom)))
+ (property "Sheetfile" "uv_guard_trial.kicad_sch" (at 285.75 267.97 0) (effects (font (size 1.27 1.27)) (justify left top)))
+ (instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-0000593d9285" (page "18")))))
 )
