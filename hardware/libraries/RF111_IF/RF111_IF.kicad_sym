@@ -1,0 +1,11 @@
+(kicad_symbol_lib (version 20241209) (generator kicad_symbol_editor)
+(symbol "RB521CM-30" (pin_numbers (hide yes)) (pin_names (offset 0) (hide yes)) (exclude_from_sim no) (in_bom yes) (on_board yes)
+ (property "Reference" "D" (at 0 2.54 0) (effects (font (size 1.05 1.05)))) (property "Value" "RB521CM-30" (at 0 -2.54 0) (effects (font (size 1.05 1.05)))) (property "Footprint" "RF111_IF:ROHM_VMN2M" (at 0 0 0) (effects (font (size 1.05 1.05)) (hide yes))) (property "Datasheet" "https://www.rohm.com/products/diodes/schottky-barrier-diodes/ultra-low-vf/rb521cm-30-product" (at 0 0 0) (effects (font (size 1.05 1.05)) (hide yes)))
+ (symbol "RB521CM-30_0_1"
+   (polyline (pts (xy -1.6 1.05) (xy -1.15 1.05) (xy -1.15 -1.05) (xy -.7 -1.05)) (stroke (width .22) (type default)) (fill (type none)))
+   (polyline (pts (xy 1.15 1.05) (xy 1.15 -1.05) (xy -1.15 0) (xy 1.15 1.05)) (stroke (width .22) (type default)) (fill (type none)))
+   (polyline (pts (xy -1.25 0) (xy 1.25 0)) (stroke (width .12) (type default)) (fill (type none))))
+ (symbol "RB521CM-30_1_1"
+ (pin passive line (at -3.81 0 0) (length 2.54) (name "K" (effects (font (size 1 1)))) (number "1" (effects (font (size 1 1)))))
+ (pin passive line (at 3.81 0 180) (length 2.54) (name "A" (effects (font (size 1 1)))) (number "2" (effects (font (size 1 1)))))))
+)

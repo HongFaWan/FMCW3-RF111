@@ -10515,7 +10515,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "cfc95bda-6fd3-4a75-81ea-99090af3b74d")
 		(property "Reference" "R18"
 			(at 358.14 112.522 90)
@@ -11010,9 +11010,9 @@
 (symbol (lib_id "fmcw3-rescue:R") (at 381 373.38 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "e98fb17e-cac9-4750-97da-cd8426a017de") (property "Reference" "R454" (at 386.08000 372.11000 0) (effects (font(size 0.9 0.9))(justify left))) (property "Value" "1k" (at 386.08000 374.65000 0) (effects (font(size 0.9 0.9))(justify left))) (property "MPN" "RC0402FR-071KL" (at 381 373.38 0) (effects (font (size 0.9 0.9)) (hide yes))) (property "Manufacturer" "Yageo" (at 381 373.38 0) (effects (font (size 0.9 0.9)) (hide yes))) (property "LCSC" "C106235" (at 381 373.38 0) (effects (font (size 0.9 0.9)) (hide yes))) (property "Footprint" "ECO_GUARD:R_0402_Yageo_Mount22" (at 381 373.38 0) (effects (font (size 0.9 0.9)) (hide yes))) (pin "1" (uuid "821d5cd9-e6bc-4003-b4e9-d487ea032f49")) (pin "2" (uuid "427fe031-5231-4b16-b951-a214511beb22")) (instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-000059396b94" (reference "R454") (unit 1)))))
 (label "PLL_REF_G" (at 381 369.57 0) (effects (font (size 0.9 0.9)) (justify left bottom)) (uuid "702c9329-8598-4239-903d-cdfc3e6f390d"))
 (global_label "GND" (shape passive) (at 381 377.19 0) (effects (font (size 0.9 0.9)) (justify left)) (uuid "2e19dbdf-23bd-42ac-9002-2c5bf3a89d7c"))
-(symbol (lib_id "fmcw3-rescue:R") (at 438.15 373.38 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "383aad9b-b5ad-4a1e-a355-9ac5590e1940") (property "Reference" "R455" (at 443.23000 372.11000 0) (effects (font(size 0.9 0.9))(justify left))) (property "Value" "10k" (at 443.23000 374.65000 0) (effects (font(size 0.9 0.9))(justify left))) (property "MPN" "RT0402BRD0710KL" (at 438.15 373.38 0) (effects (font (size 0.9 0.9)) (hide yes))) (property "Manufacturer" "Yageo" (at 438.15 373.38 0) (effects (font (size 0.9 0.9)) (hide yes))) (property "LCSC" "C190095" (at 438.15 373.38 0) (effects (font (size 0.9 0.9)) (hide yes))) (property "Footprint" "ECO_GUARD:R_0402_Yageo_Mount22" (at 438.15 373.38 0) (effects (font (size 0.9 0.9)) (hide yes))) (pin "1" (uuid "4fd6e31e-c2bc-4846-8710-78fc3cd3766a")) (pin "2" (uuid "3c456744-96a6-4e17-9826-a5789f34e075")) (instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-000059396b94" (reference "R455") (unit 1)))))
-(global_label "GUARD_ANALOG_EN" (shape input) (at 438.15 369.57 0) (effects (font (size 0.9 0.9)) (justify left)) (uuid "921e716b-6fa0-4fb9-b3f0-e6a017ade624"))
-(global_label "GND" (shape passive) (at 438.15 377.19 0) (effects (font (size 0.9 0.9)) (justify left)) (uuid "8b7f4f85-5e18-43d2-84cb-63e645e485e6"))
+
+
+
 (symbol (lib_id "fmcw3-rescue:R") (at 335.28 224.79 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "d8d3d4c0-1136-4b5c-a9c5-5a8a44df86b9") (property "Reference" "R456" (at 340.36000 223.52000 0) (effects (font(size 0.9 0.9))(justify left))) (property "Value" "47" (at 340.36000 226.06000 0) (effects (font(size 0.9 0.9))(justify left))) (property "MPN" "RC0402FR-0747RL" (at 335.28 224.79 0) (effects (font (size 0.9 0.9)) (hide yes))) (property "Manufacturer" "Yageo" (at 335.28 224.79 0) (effects (font (size 0.9 0.9)) (hide yes))) (property "LCSC" "C137973" (at 335.28 224.79 0) (effects (font (size 0.9 0.9)) (hide yes))) (property "Footprint" "ECO_GUARD:R_0402_Yageo_Mount22" (at 335.28 224.79 0) (effects (font (size 0.9 0.9)) (hide yes))) (pin "1" (uuid "50f98f0e-5bec-46f1-b7dd-b80959227a48")) (pin "2" (uuid "31caf638-81fe-431f-8d87-7a61baa3d393")) (instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-000059396b94" (reference "R456") (unit 1)))))
 (label "PLL_REF_DRIVER" (at 335.28 220.98 0) (effects (font (size 0.9 0.9)) (justify left bottom)) (uuid "948baa4c-2260-43ce-911d-98450c739eae"))
 (label "PLL_REF_G" (at 335.28 228.6 0) (effects (font (size 0.9 0.9)) (justify left bottom)) (uuid "7ef880c7-c4e1-4fa2-81ec-f405ff6f54e6"))

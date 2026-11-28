@@ -5,6 +5,20 @@
 (uuid "48fcd802-27da-4fd0-8e89-bb555c6a919e")
 (paper "A3")
 (lib_symbols
+(symbol "RF111_LO:R_LO_Diff_Compact" (pin_numbers (hide yes)) (pin_names (offset 0) (hide yes)) (exclude_from_sim no) (in_bom yes) (on_board yes)
+ (property "Reference" "R" (at 2.1 0.8 0) (effects (font (size .78 .78)))) (property "Value" "R" (at 2.1 -0.8 0) (effects (font (size .78 .78)))) (property "Footprint" "RF111_LO:R_0201_0603Metric_LO" (at 0 0 0) (effects (font (size .78 .78)) (hide yes))) (property "Datasheet" "https://industrial.panasonic.com/tw/products/pt/general-purpose-chip-resistors/models/ERJ1GNF1200C" (at 0 0 0) (effects (font (size .78 .78)) (hide yes)))
+ (symbol "R_LO_Diff_Compact_0_1" (rectangle (start -.63 -1.15) (end .63 1.15) (stroke (width .17) (type default)) (fill (type none))))
+ (symbol "R_LO_Diff_Compact_1_1" (pin passive line (at 0 2.54 270) (length 1.39) (name "~" (effects (font (size 1 1)))) (number "1" (effects (font (size 1 1)))))
+ (pin passive line (at 0 -2.54 90) (length 1.39) (name "~" (effects (font (size 1 1)))) (number "2" (effects (font (size 1 1)))))))
+(symbol "RF111_IF:RB521CM-30" (pin_numbers (hide yes)) (pin_names (offset 0) (hide yes)) (exclude_from_sim no) (in_bom yes) (on_board yes)
+ (property "Reference" "D" (at 0 2.54 0) (effects (font (size 1.05 1.05)))) (property "Value" "RB521CM-30" (at 0 -2.54 0) (effects (font (size 1.05 1.05)))) (property "Footprint" "RF111_IF:ROHM_VMN2M" (at 0 0 0) (effects (font (size 1.05 1.05)) (hide yes))) (property "Datasheet" "https://www.rohm.com/products/diodes/schottky-barrier-diodes/ultra-low-vf/rb521cm-30-product" (at 0 0 0) (effects (font (size 1.05 1.05)) (hide yes)))
+ (symbol "RB521CM-30_0_1"
+   (polyline (pts (xy -1.6 1.05) (xy -1.15 1.05) (xy -1.15 -1.05) (xy -.7 -1.05)) (stroke (width .22) (type default)) (fill (type none)))
+   (polyline (pts (xy 1.15 1.05) (xy 1.15 -1.05) (xy -1.15 0) (xy 1.15 1.05)) (stroke (width .22) (type default)) (fill (type none)))
+   (polyline (pts (xy -1.25 0) (xy 1.25 0)) (stroke (width .12) (type default)) (fill (type none))))
+ (symbol "RB521CM-30_1_1"
+ (pin passive line (at -3.81 0 0) (length 2.54) (name "K" (effects (font (size 1 1)))) (number "1" (effects (font (size 1 1)))))
+ (pin passive line (at 3.81 0 180) (length 2.54) (name "A" (effects (font (size 1 1)))) (number "2" (effects (font (size 1 1)))))))
 		(symbol "fmcw3-rescue:C"
 			(pin_numbers
 				(hide yes)
@@ -1678,16 +1692,9 @@
 		)
 		(uuid "13fa17d1-1c76-40ac-b7ac-0726edc1dc74")
 	)
-(wire
-		(pts
-			(xy 115.57 90.17) (xy 111.76 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18ec2833-6ed4-4209-8ae0-e30f8c5dd1c6")
-	)
+(wire (pts (xy 115.57 90.17) (xy 114.3 90.17)) (stroke (width 0) (type default)) (uuid "18ec2833-6ed4-4209-8ae0-e30f8c5dd1c6"))
+(wire (pts (xy 114.3 90.17) (xy 111.76 90.17)) (stroke (width 0) (type default)) (uuid "8c9f56cf-1abb-574b-b556-ed4720d471c9"))
+(junction (at 114.3 90.17) (diameter 0) (color 0 0 0 0) (uuid "76142def-dcf4-5a64-bfe5-9de162268e2c"))
 (wire
 		(pts
 			(xy 101.6 109.22) (xy 101.6 110.49)
@@ -1988,16 +1995,9 @@
 		)
 		(uuid "56fbd393-217c-4cf3-bf24-49e2a19f2ec7")
 	)
-(wire
-		(pts
-			(xy 115.57 85.09) (xy 111.76 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57a8f5d1-04a1-4326-966a-ae8866880c18")
-	)
+(wire (pts (xy 115.57 85.09) (xy 114.3 85.09)) (stroke (width 0) (type default)) (uuid "57a8f5d1-04a1-4326-966a-ae8866880c18"))
+(wire (pts (xy 114.3 85.09) (xy 111.76 85.09)) (stroke (width 0) (type default)) (uuid "737a2fea-ed49-5744-863a-a225800f81d2"))
+(junction (at 114.3 85.09) (diameter 0) (color 0 0 0 0) (uuid "9ce19562-c0f4-5f56-bec6-4e054590c1bc"))
 (wire
 		(pts
 			(xy 231.14 72.39) (xy 236.22 72.39)
@@ -2768,7 +2768,7 @@
 		)
 		(uuid "fab316f0-7273-4ece-aa23-70a30ff74bcb")
 	)
-(label "5VF"
+(global_label "MIXER_4V93" (shape passive)
 		(at 231.14 97.79 90)
 		(effects
 			(font
@@ -2778,7 +2778,7 @@
 		)
 		(uuid "5358f86a-9c47-4c4f-9615-10f22b42c69d")
 	)
-(label "5VF"
+(global_label "MIXER_4V93" (shape passive)
 		(at 231.14 129.54 270)
 		(effects
 			(font
@@ -2788,7 +2788,7 @@
 		)
 		(uuid "60b31d52-cc2c-4efc-b8e0-c8a65e33eb9e")
 	)
-(label "5VF"
+(global_label "MIXER_4V93" (shape passive)
 		(at 194.31 105.41 0)
 		(effects
 			(font
@@ -2798,7 +2798,7 @@
 		)
 		(uuid "6357c469-6fa0-4700-a99c-83258023a396")
 	)
-(label "5VF"
+(global_label "MIXER_4V93" (shape passive)
 		(at 231.14 57.15 90)
 		(effects
 			(font
@@ -2808,7 +2808,7 @@
 		)
 		(uuid "8110e0bb-4283-4d9d-9266-a496ff55ebfa")
 	)
-(label "5VF"
+(global_label "MIXER_4V93" (shape passive)
 		(at 231.14 88.9 270)
 		(effects
 			(font
@@ -2818,7 +2818,7 @@
 		)
 		(uuid "934640ef-1487-4f2b-8289-d6f3c6b849ec")
 	)
-(label "5VF"
+(global_label "MIXER_4V93" (shape passive)
 		(at 149.86 46.99 0)
 		(effects
 			(font
@@ -2850,9 +2850,7 @@
 		)
 		(uuid "56119394-2726-461a-b535-577f42596376")
 	)
-(hierarchical_label "5V"
-		(shape input)
-		(at 96.52 40.64 180)
+(hierarchical_label "MIXER_4V93" (shape input) (at 96.52 40.64 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3647,7 +3645,7 @@
 				)
 			 (hide yes))
 		)
-		(pin "1"
+		(property "MPN" "SG73P1EWTTP49R9F" (at 231.14 68.58 0) (effects (font (size 1 1)) (hide yes))) (pin "1"
 			(uuid "ea546225-bbe8-4207-afab-b39ac0ff0b6d")
 		)
 		(pin "2"
@@ -3712,7 +3710,7 @@
 				)
 			 (hide yes))
 		)
-		(pin "1"
+		(property "MPN" "SG73P1EWTTP49R9F" (at 231.14 78.74 0) (effects (font (size 1 1)) (hide yes))) (pin "1"
 			(uuid "494e7c93-4218-4b55-89ca-303a75861847")
 		)
 		(pin "2"
@@ -4890,7 +4888,7 @@
 				)
 			 (hide yes))
 		)
-		(pin "1"
+		(property "MPN" "SG73P1EWTTP49R9F" (at 231.14 109.22 0) (effects (font (size 1 1)) (hide yes))) (pin "1"
 			(uuid "3d9fa1ff-53bc-490f-a2f1-ad3db8089a9b")
 		)
 		(pin "2"
@@ -4955,7 +4953,7 @@
 				)
 			 (hide yes))
 		)
-		(pin "1"
+		(property "MPN" "SG73P1EWTTP49R9F" (at 231.14 119.38 0) (effects (font (size 1 1)) (hide yes))) (pin "1"
 			(uuid "16273fe5-3837-4c89-91f9-902accf23302")
 		)
 		(pin "2"
@@ -6131,75 +6129,11 @@
 			)
 		)
 	)
-(symbol
-		(lib_id "fmcw3-rescue:FILTER")
-		(at 110.49 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000059754a66")
-		(property "Reference" "FB13"
-			(at 110.49 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BLM18PG181SN1D"
-			(at 110.49 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:SMD_0603"
-			(at 110.49 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			 (hide yes))
-		)
-		(property "Description" ""
-			(at 110.49 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			 (hide yes))
-		)
-		(pin "1"
-			(uuid "23383005-6801-4e3a-a09f-ae2c855d0ebb")
-		)
-		(pin "2"
-			(uuid "8c43a144-ded0-46f5-90a9-eb1c958d5fb2")
-		)
-		(instances
-			(project "fmcw3"
-				(path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-000059434bd2"
-					(reference "FB13")
-					(unit 1)
-				)
-			)
-		)
-	)
-(symbol (lib_id "FMCW3_ECO:PWR_FLAG") (at 119.38 40.64 0)(unit 1)(exclude_from_sim no)(in_bom no)(on_board yes)(dnp no)(uuid "094ee3b9-c16f-437f-9575-a0d7ddcfe886")(property "Reference" "#FLG9918" (at 119.38 43.18 0)(effects(font(size 1 1))(hide yes)))(property "Value" "PWR_FLAG" (at 119.38 36.83 0)(effects(font(size 1 1))))(property "Footprint" "" (at 119.38 40.64 0)(effects(font(size 1 1))(hide yes)))(pin "1" (uuid "ca359b42-445b-4e9a-9492-7239830c3171"))(instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-000059434bd2" (reference "#FLG9918")(unit 1)))))
+
+
 (symbol (lib_id "ECO_GUARD:TXU0101DCKR") (at 95.25 223.52 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "729cbb68-82bf-4f64-922c-74fdf540095a") (property "Reference" "U443" (at 99.06 205.74 0) (effects (font (size 0.9 0.9)))) (property "Value" "TXU0101DCKR" (at 99.06 241.3 0) (effects (font (size 0.9 0.9)))) (property "MPN" "TXU0101DCKR" (at 95.25 223.52 0) (effects (font (size 0.9 0.9)) (hide yes))) (property "Manufacturer" "Texas Instruments" (at 95.25 223.52 0) (effects (font (size 0.9 0.9)) (hide yes))) (property "LCSC" "C5217868" (at 95.25 223.52 0) (effects (font (size 0.9 0.9)) (hide yes))) (property "Footprint" "ECO_GUARD:TI_DCK6_0p9x0p4_MFR" (at 95.25 223.52 0) (effects (font (size 0.9 0.9)) (hide yes))) (property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0101.pdf" (at 95.25 223.52 0) (effects (font (size 0.9 0.9)) (hide yes))) (pin "1" (uuid "7dbd8397-318e-4c1a-a536-57ad9554b72c")) (pin "2" (uuid "4a1c80b0-c69a-4517-892e-5bc4533aaba5")) (pin "3" (uuid "35d17a3a-0c2d-4963-b160-400dc9115603")) (pin "4" (uuid "8b4748cc-9a53-4f12-a733-c266970f9a0f")) (pin "5" (uuid "e0c6e2da-312a-41ff-a923-8eb73de10f8c")) (pin "6" (uuid "204de4e2-b00e-4082-8a46-6e2f47d7bd76")) (instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-000059434bd2" (reference "U443") (unit 1)))))
 (label "3V3D_GUARD" (at 92.71 210.82 180) (effects(font(size 0.9 0.9))(justify right bottom)) (uuid "0452c129-ba7d-4cce-a2ee-3384aac6706f"))
-(label "5VF" (at 97.79 210.82 0) (effects (font (size 0.9 0.9)) (justify left bottom)) (uuid "b9aefada-3429-4aca-b26a-7195a4fd0d07"))
+(global_label "MIXER_4V93" (shape passive) (at 97.79 210.82 0) (effects (font (size 0.9 0.9)) (justify left bottom)) (uuid "b9aefada-3429-4aca-b26a-7195a4fd0d07"))
 (wire (pts (xy 69.85 223.52) (xy 82.55 223.52)) (stroke (width 0) (type default)) (uuid "8612eec5-7343-4838-83eb-b6c382a5ceeb"))
 (hierarchical_label "MIX_ENBL"
 		(shape input)
@@ -6225,16 +6159,66 @@
 (label "3V3D_GUARD" (at 38.1 234.95 0) (effects (font (size 0.9 0.9)) (justify left bottom)) (uuid "92477165-b871-4c2b-8f55-2dc00dd3c264"))
 (label "MIX_ENBL" (at 38.1 242.57 0) (effects (font (size 0.9 0.9)) (justify left bottom)) (uuid "f7958533-626e-40cf-a66b-329fa764e5ea"))
 (symbol (lib_id "fmcw3-rescue:R") (at 175.26 223.52 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "e540d32c-1b0f-41d9-b962-aa081247fad8") (property "Reference" "R460" (at 179.07 220.52 0) (effects (font (size 0.9 0.9)))) (property "Value" "10k" (at 179.07 226.52 0) (effects (font (size 0.9 0.9)))) (property "MPN" "RT0402BRD0710KL" (at 175.26 223.52 0) (effects (font (size 0.9 0.9)) (hide yes))) (property "Manufacturer" "Yageo" (at 175.26 223.52 0) (effects (font (size 0.9 0.9)) (hide yes))) (property "LCSC" "C190095" (at 175.26 223.52 0) (effects (font (size 0.9 0.9)) (hide yes))) (property "Footprint" "ECO_GUARD:R_0402_Yageo_Mount22" (at 175.26 223.52 0) (effects (font (size 0.9 0.9)) (hide yes))) (pin "1" (uuid "96e25a0c-103f-4d4c-abf8-589e9d74d339")) (pin "2" (uuid "4ddf1923-c06d-4c4e-8fb7-2225b7b105e8")) (instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-000059434bd2" (reference "R460") (unit 1)))))
-(label "5VF" (at 175.26 219.71 0) (effects (font (size 0.9 0.9)) (justify left bottom)) (uuid "d682fc70-5e8e-464b-8608-5822438a57fe"))
+(global_label "MIXER_4V93" (shape passive) (at 175.26 219.71 0) (effects (font (size 0.9 0.9)) (justify left bottom)) (uuid "d682fc70-5e8e-464b-8608-5822438a57fe"))
 (label "MIX_ENBL_G" (at 175.26 227.33 0) (effects (font (size 0.9 0.9)) (justify left bottom)) (uuid "9fb49d87-b57c-4781-88c5-e31a5b6e0788"))
 (symbol (lib_id "fmcw3-rescue:C") (at 213.36 223.52 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "b513b7b4-3b97-4328-b0a9-450542f5ff3b") (property "Reference" "C446" (at 218.44000 222.25000 0) (effects (font(size 0.9 0.9))(justify left))) (property "Value" "100n" (at 218.44000 224.79000 0) (effects (font(size 0.9 0.9))(justify left))) (property "MPN" "GRM155R71H104KE14D" (at 213.36 223.52 0) (effects (font (size 0.9 0.9)) (hide yes))) (property "Manufacturer" "Murata" (at 213.36 223.52 0) (effects (font (size 0.9 0.9)) (hide yes))) (property "LCSC" "C77020" (at 213.36 223.52 0) (effects (font (size 0.9 0.9)) (hide yes))) (property "Footprint" "ECO_GUARD:C_0402_Murata_GRM155_Mount22" (at 213.36 223.52 0) (effects (font (size 0.9 0.9)) (hide yes))) (pin "1" (uuid "68d1f947-7930-45e5-b18e-530789da2993")) (pin "2" (uuid "0a2f289f-589a-4591-a084-b882331c895c")) (instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-000059434bd2" (reference "C446") (unit 1)))))
 (label "3V3D_GUARD" (at 213.36 219.71 0) (effects (font (size 0.9 0.9)) (justify left bottom)) (uuid "c5ddc123-cc6c-4e6e-81db-bea1a76f6873"))
 (global_label "GND" (shape passive) (at 213.36 227.33 0) (effects (font (size 0.9 0.9)) (justify left)) (uuid "8929b84d-8759-48db-9cde-cdcd26c641cd"))
 (symbol (lib_id "fmcw3-rescue:C") (at 251.46 223.52 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "b747a0f1-b9a1-44d6-ad89-46fe454fe976") (property "Reference" "C447" (at 256.54000 222.25000 0) (effects (font(size 0.9 0.9))(justify left))) (property "Value" "100n" (at 256.54000 224.79000 0) (effects (font(size 0.9 0.9))(justify left))) (property "MPN" "GRM155R71H104KE14D" (at 251.46 223.52 0) (effects (font (size 0.9 0.9)) (hide yes))) (property "Manufacturer" "Murata" (at 251.46 223.52 0) (effects (font (size 0.9 0.9)) (hide yes))) (property "LCSC" "C77020" (at 251.46 223.52 0) (effects (font (size 0.9 0.9)) (hide yes))) (property "Footprint" "ECO_GUARD:C_0402_Murata_GRM155_Mount22" (at 251.46 223.52 0) (effects (font (size 0.9 0.9)) (hide yes))) (pin "1" (uuid "7d531626-7264-4098-bbc5-0b269e8177fb")) (pin "2" (uuid "703eae8c-2a84-4dd1-b462-69b33416babb")) (instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-000059434bd2" (reference "C447") (unit 1)))))
-(label "5VF" (at 251.46 219.71 0) (effects (font (size 0.9 0.9)) (justify left bottom)) (uuid "eb63efe1-e9e1-407a-94da-e8821895357b"))
+(global_label "MIXER_4V93" (shape passive) (at 251.46 219.71 0) (effects (font (size 0.9 0.9)) (justify left bottom)) (uuid "eb63efe1-e9e1-407a-94da-e8821895357b"))
 (global_label "GND" (shape passive) (at 251.46 227.33 0) (effects (font (size 0.9 0.9)) (justify left)) (uuid "8b1ee9ea-6031-43c3-963f-88ddd927b8d0"))
 (global_label "LO_ROUTED" (shape passive) (at 41.91 87.63 180) (effects (font (size .85 .85)) (justify left)) (uuid "805c4ba5-9abe-4443-b909-cbd4e44f5408") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 41.91 87.63 0) (effects (font (size 1 1)) (hide yes))))
 (global_label "LO_AFTER_COUPLER" (shape passive) (at 54.61 87.63 0) (effects (font (size .85 .85)) (justify right)) (uuid "927bcc9d-f370-466a-a50f-0ff5032ddfc5") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 54.61 87.63 0) (effects (font (size 1 1)) (hide yes))))
 (global_label "GND" (shape passive) (at 54.61 92.71 0) (effects (font (size .85 .85)) (justify right)) (uuid "be3f58cd-abde-4fee-8a35-ba867a9434e8") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 54.61 92.71 0) (effects (font (size 1 1)) (hide yes))))
 (global_label "LO_AFTER_COUPLER" (shape passive) (at 73.66 87.63 180) (effects (font (size .85 .85)) (justify left)) (uuid "bf435fc7-6bf2-4ce4-9d31-7f10a3a2ea9f") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 73.66 87.63 0) (effects (font (size 1 1)) (hide yes))))
+
+(symbol (lib_id "RF111_IF:RB521CM-30") (at 292.1 68.58 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "f3a69a79-7997-5e61-bdd8-cd8a643c8698")
+ (property "Reference" "D801" (at 292.1 66.04 0) (effects (font (size 1.05 1.05)))) (property "Value" "RB521CM-30" (at 292.1 71.12 0) (effects (font (size 1.05 1.05)))) (property "Footprint" "RF111_IF:ROHM_VMN2M" (at 292.1 68.58 0) (effects (font (size 1.05 1.05)) (hide yes))) (property "Datasheet" "https://www.rohm.com/products/diodes/schottky-barrier-diodes/ultra-low-vf/rb521cm-30-product" (at 292.1 68.58 0) (effects (font (size 1.05 1.05)) (hide yes))) (property "Manufacturer Part Number" "RB521CM-30T2R" (at 292.1 68.58 0) (effects (font (size 1.05 1.05)) (hide yes)))
+ (pin "1" (uuid "3586bf7f-42e5-57b2-ad57-cd59670464e0")) (pin "2" (uuid "1eb6a1a5-34c7-5f96-b2c0-813435b629bd"))
+ (instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-000059434bd2" (reference "D801") (unit 1)))))
+(wire (pts (xy 279.4 68.58) (xy 288.29 68.58)) (stroke (width 0) (type default)) (uuid "272bd038-5e8b-5161-906f-2ce15d351f2e"))
+(wire (pts (xy 295.91 68.58) (xy 304.8 68.58)) (stroke (width 0) (type default)) (uuid "c8165bfd-f34d-5505-9b3b-9a4ad46f51bb"))
+(global_label "MIXER_4V93" (shape passive) (at 279.4 68.58 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "32c61730-217e-5c05-8d62-fb83fe15c0ba"))
+(label "IF1+" (at 304.8 68.58 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "43e3a9bf-44de-5e31-9c58-df187f6cbd9c"))
+(symbol (lib_id "RF111_IF:RB521CM-30") (at 292.1 81.28 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "df2e7e13-b624-5f45-ae4c-0be807c424de")
+ (property "Reference" "D802" (at 292.1 78.74 0) (effects (font (size 1.05 1.05)))) (property "Value" "RB521CM-30" (at 292.1 83.82 0) (effects (font (size 1.05 1.05)))) (property "Footprint" "RF111_IF:ROHM_VMN2M" (at 292.1 81.28 0) (effects (font (size 1.05 1.05)) (hide yes))) (property "Datasheet" "https://www.rohm.com/products/diodes/schottky-barrier-diodes/ultra-low-vf/rb521cm-30-product" (at 292.1 81.28 0) (effects (font (size 1.05 1.05)) (hide yes))) (property "Manufacturer Part Number" "RB521CM-30T2R" (at 292.1 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+ (pin "1" (uuid "b25ad3b2-8663-5e84-8174-e0032859658c")) (pin "2" (uuid "6b97226e-810a-5602-9ccc-879d402aafde"))
+ (instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-000059434bd2" (reference "D802") (unit 1)))))
+(wire (pts (xy 279.4 81.28) (xy 288.29 81.28)) (stroke (width 0) (type default)) (uuid "d7178b20-0c80-53ac-83ae-c0f4850ab665"))
+(wire (pts (xy 295.91 81.28) (xy 304.8 81.28)) (stroke (width 0) (type default)) (uuid "1732e012-dab7-507d-afe6-8df0f69b68b9"))
+(global_label "MIXER_4V93" (shape passive) (at 279.4 81.28 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "523ff797-cde8-5185-a779-9f8c4395026f"))
+(label "IF1-" (at 304.8 81.28 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ad26bbd7-4eab-5ec0-8e9e-d662489dd537"))
+(symbol (lib_id "RF111_IF:RB521CM-30") (at 292.1 93.98 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "907e54e0-770c-5435-a6e7-9a6744a383ca")
+ (property "Reference" "D803" (at 292.1 91.44 0) (effects (font (size 1.05 1.05)))) (property "Value" "RB521CM-30" (at 292.1 96.52 0) (effects (font (size 1.05 1.05)))) (property "Footprint" "RF111_IF:ROHM_VMN2M" (at 292.1 93.98 0) (effects (font (size 1.05 1.05)) (hide yes))) (property "Datasheet" "https://www.rohm.com/products/diodes/schottky-barrier-diodes/ultra-low-vf/rb521cm-30-product" (at 292.1 93.98 0) (effects (font (size 1.05 1.05)) (hide yes))) (property "Manufacturer Part Number" "RB521CM-30T2R" (at 292.1 93.98 0) (effects (font (size 1.05 1.05)) (hide yes)))
+ (pin "1" (uuid "d0bac0aa-c6a9-565d-ba0a-5b6b2df397a9")) (pin "2" (uuid "b0e30f53-6f2e-5e56-b089-017bcbdab1e3"))
+ (instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-000059434bd2" (reference "D803") (unit 1)))))
+(wire (pts (xy 279.4 93.98) (xy 288.29 93.98)) (stroke (width 0) (type default)) (uuid "3ca75360-32ab-5a3e-92ab-e90d6a4520e3"))
+(wire (pts (xy 295.91 93.98) (xy 304.8 93.98)) (stroke (width 0) (type default)) (uuid "1051f031-c4b1-5179-bd94-5f535db50c4a"))
+(global_label "MIXER_4V93" (shape passive) (at 279.4 93.98 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "0765b725-2458-5bd3-8cb3-f50405dc0cfe"))
+(label "IF2+" (at 304.8 93.98 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "91ee4f5a-c7e3-55c2-9af2-88aeb8a971cf"))
+(symbol (lib_id "RF111_IF:RB521CM-30") (at 292.1 106.68 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "d2015952-763e-5ffa-9afe-8c06fff3f9ac")
+ (property "Reference" "D804" (at 292.1 104.14 0) (effects (font (size 1.05 1.05)))) (property "Value" "RB521CM-30" (at 292.1 109.22 0) (effects (font (size 1.05 1.05)))) (property "Footprint" "RF111_IF:ROHM_VMN2M" (at 292.1 106.68 0) (effects (font (size 1.05 1.05)) (hide yes))) (property "Datasheet" "https://www.rohm.com/products/diodes/schottky-barrier-diodes/ultra-low-vf/rb521cm-30-product" (at 292.1 106.68 0) (effects (font (size 1.05 1.05)) (hide yes))) (property "Manufacturer Part Number" "RB521CM-30T2R" (at 292.1 106.68 0) (effects (font (size 1.05 1.05)) (hide yes)))
+ (pin "1" (uuid "0784eb8a-efea-5181-931c-f17101bcc853")) (pin "2" (uuid "8ed32fd8-1606-50ab-8f8b-45d2dea4a295"))
+ (instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-000059434bd2" (reference "D804") (unit 1)))))
+(wire (pts (xy 279.4 106.68) (xy 288.29 106.68)) (stroke (width 0) (type default)) (uuid "bb11de57-6925-5085-8fb9-aece5dd93553"))
+(wire (pts (xy 295.91 106.68) (xy 304.8 106.68)) (stroke (width 0) (type default)) (uuid "a944d867-0fdb-5614-9cc5-1ec4da6851a4"))
+(global_label "MIXER_4V93" (shape passive) (at 279.4 106.68 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "bf5dba27-fe29-5a64-b9f2-630fbe04b44c"))
+(label "IF2-" (at 304.8 106.68 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "a98d1d86-a567-576a-8425-023d75a3e469"))
+
+(symbol (lib_id "RF111_LO:R_LO_Diff_Compact") (at 114.3 87.63 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "d4a10ec5-0e18-59e2-8565-b42adbea5e5e")
+ (property "Reference" "R805" (at 119.2 87.63 0) (effects (font (size .78 .78)))) (property "Value" "100" (at 122.7 87.63 0) (effects (font (size .78 .78)))) (property "Footprint" "RF111_LO:R_0201_0603Metric_LO" (at 114.3 87.63 0) (effects (font (size .78 .78)) (hide yes)))
+ (property "MPN" "ERJ1GNF1000C" (at 114.3 87.63 0) (effects (font (size .78 .78)) (hide yes))) (property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ1GNF1000C" (at 114.3 87.63 0) (effects (font (size .78 .78)) (hide yes)))
+ (pin "1" (uuid "de4dbee7-adf8-5efd-a2ae-09d2dc8e377f")) (pin "2" (uuid "0b9e94a9-9d50-5b2a-b1f6-b1aad7f38d3b"))
+ (instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-000059434bd2" (reference "R805") (unit 1)))))
+
+(text "U29 local supply sense. Take the 5VF connection at U29." (at 299.72 134.62 0) (effects (font (size 1.2 1.2)) (justify left)) (uuid "7a96ac86-6fbb-544d-a363-b1688c4e9a67"))
+(symbol (lib_id "fmcw3-rescue:R") (at 320.04 152.4 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "b6f58d5a-3f14-503e-b999-80bdaf6a1c65") (property "Reference" "R806" (at 327.66 151.13 0) (effects (font (size 1.05 1.05))))(property "Value" "9.31k" (at 327.66 153.67 0) (effects (font (size 1.05 1.05))))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 320.04 152.4 0) (effects (font (size 1.05 1.05)) (hide yes)))(property "MPN" "ERA3ARW9311V" (at 320.04 152.4 0) (effects (font (size 1.05 1.05)) (hide yes)))(property "Manufacturer Part Number" "ERA3ARW9311V" (at 320.04 152.4 0) (effects (font (size 1.05 1.05)) (hide yes)))(property "Manufacturer" "Panasonic" (at 320.04 152.4 0) (effects (font (size 1.05 1.05)) (hide yes)))(pin "1" (uuid "22448f26-7b0f-5363-948a-9d0dc2407707")) (pin "2" (uuid "6b8ee846-0a9c-5f66-aa05-b1e15ce73226"))(instances (project "fmcw3" (path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-000059434bd2" (reference "R806") (unit 1)))))
+(wire (pts (xy 320.04 148.59) (xy 320.04 144.78)) (stroke (width 0) (type default)) (uuid "8bb50858-0b65-5b53-82c1-80fe7b2a3181"))
+(wire (pts (xy 320.04 144.78) (xy 325.12 144.78)) (stroke (width 0) (type default)) (uuid "82aac0ca-3f5a-5691-a8d8-cce5ec00d042"))
+(global_label "MIXER_4V93" (shape passive) (at 325.12 144.78 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "2a5c31f9-6084-5a7b-877c-1e619b6ff3e5"))
+(wire (pts (xy 320.04 156.21) (xy 320.04 160.02)) (stroke (width 0) (type default)) (uuid "09bb2166-f4aa-5afc-ac7f-2868df82df22"))
+(wire (pts (xy 320.04 160.02) (xy 325.12 160.02)) (stroke (width 0) (type default)) (uuid "e761e3be-6090-5ca3-a3bd-b4c375d61592"))
+(global_label "MIXER_UV_SENSE" (shape passive) (at 325.12 160.02 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "5336ce7f-3118-51b8-9efd-c320b554dfc7"))
+
+(wire (pts (xy 101.6 40.64) (xy 119.38 40.64)) (stroke (width 0) (type default)) (uuid "de455090-773f-5ff4-9e61-2eea405066af"))
 )

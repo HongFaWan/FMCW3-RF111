@@ -31,4 +31,10 @@
 (lib (name "RF111_USB_SENSE") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/RF111_USB_SENSE.kicad_sym")(options "")(descr ""))
 
 (lib (name "RF111_UV") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/RF111_UV.kicad_sym") (options "") (descr "Tune and IO undervoltage engineering variant"))
+
+  (lib (name "RF111_IF") (type "KiCad") (uri "${KIPRJMOD}/libraries/RF111_IF/RF111_IF.kicad_sym") (options "") (descr "RF111B mixer IF protective clamps"))
+
+(lib (name "RF111_Supervision") (type "KiCad") (uri "${KIPRJMOD}/libraries/RF111_Supervision/RF111_Supervision.kicad_sym") (options "") (descr "Local mixer supply monitor"))
+
+(lib (name "RF111_MixerPower") (type "KiCad") (uri "${KIPRJMOD}/libraries/RF111_MixerPower/RF111_MixerPower.kicad_sym") (options "") (descr "Dedicated mixer rail, schematic evaluation"))
 )

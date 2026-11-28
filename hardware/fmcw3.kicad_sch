@@ -1018,8 +1018,7 @@
 		)
 		(uuid "91cad157-d8f1-42fe-bc7d-f2d8b68a19e8")
 	)
-(label "5V"
-		(at 119.38 111.76 180)
+(global_label "MIXER_4V93" (shape passive) (at 119.38 111.76 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2047,8 +2046,7 @@
 				(justify left)
 			)
 		)
-		(pin "5V" input
-			(at 121.92 111.76 180)
+		(pin "MIXER_4V93" input (at 121.92 111.76 180)
 			(uuid "1a9dd9ef-660e-4b31-ab31-29c9d2c9bbb8")
 			(effects
 				(font

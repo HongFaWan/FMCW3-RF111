@@ -29,3 +29,5 @@ https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catal
 
 
 2026-11-23 追加 RF111 0.250 mm 工程候选。分支保留该候选的原生几何。候选中引用的 KiCad 标准封装源自官方库；其库文件适用 KiCad 库许可及其例外，详情见 https://www.kicad.org/libraries/license/ 。
+
+2026-11-28 归档 RF111B 619 位工程首板。保留经核对的 619 位板图、原理图、原生项目库和同版生产数据，新增独立本振及混频器供电联锁相关装配资料。配套首次上电及逐板标定使用 FW101-619R2。

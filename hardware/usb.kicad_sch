@@ -3698,20 +3698,12 @@
 		(uuid "7d677e41-9773-4c0c-a140-dcefae186f07")
 	)
 	(no_connect
-		(at 93.98 124.46)
-		(uuid "8c0d08fb-761c-4ade-bcbe-2d3b82255c6a")
-	)
-	(no_connect
 		(at 191.77 116.84)
 		(uuid "8e54487b-0f49-4a0b-8201-90758b3e2469")
 	)
 	(no_connect
 		(at 191.77 130.81)
 		(uuid "bcc6a4cd-3654-4c5f-b860-46ab8a450422")
-	)
-	(no_connect
-		(at 93.98 127)
-		(uuid "c2ed9efd-fc32-4801-a571-e8fd9310ef6a")
 	)
 	(no_connect
 		(at 50.8 62.23)
@@ -9620,4 +9612,112 @@
 (global_label "GND" (shape passive) (at 358.000 111.890 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "51354ffe-16d2-545a-adb3-c2d17a3918fd"))
 (label "USB_VBUS_DIV"  (at 218.440 151.130 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "595f40f2-6e90-5fb5-8c2a-3349d93118e8"))
 (label "USB_FTDI_SENSE"  (at 214.630 151.130 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "ed2065f9-f421-5715-9ec1-eaa0f012005a"))
+	(junction
+		(at 91.44 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db70f54b-1370-5e8a-95be-a0896e4fdbda")
+	)
+	(wire
+		(pts
+			(xy 93.98 124.46) (xy 91.44 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bc98f9b-2efd-572d-8ce1-7d077b04f466")
+	)
+	(wire
+		(pts
+			(xy 91.44 124.46) (xy 91.44 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5269190d-7c56-5520-90d6-464f82a96018")
+	)
+	(wire
+		(pts
+			(xy 93.98 127) (xy 91.44 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d7d973-adb4-5852-9221-10d34f506bf8")
+	)
+	(wire
+		(pts
+			(xy 91.44 127) (xy 91.44 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eccb003-e580-5a24-b33e-7bf24763b551")
+	)
+	(symbol
+		(lib_id "fmcw3-rescue:GND")
+		(at 91.44 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c1516b2-418b-5b77-8684-5beeb23c683a")
+		(property "Reference" "#PWR9010"
+			(at 91.44 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 130.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 130.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f407ab5-5d51-5f73-a9c0-d087c56cbcd7")
+		)
+		(instances
+			(project "fmcw3"
+				(path "/25ababa6-1178-4b22-9ad6-058222120a27/00000000-0000-0000-0000-000059395d6a/00000000-0000-0000-0000-0000583abbe9"
+					(reference "#PWR9010")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
